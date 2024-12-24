@@ -17,7 +17,7 @@ export default function VideoSection() {
         <div className="aspect-w-16 aspect-h-9">
           <iframe 
             className="w-full h-[315px] rounded-lg"
-            src="https://www.youtube.com/embed/videoseries?list=PLyyy" 
+            src="https://www.youtube.com/embed/fYMZU9xr5PQ?si=7UuBJlDR0plPJl85" 
             title="Sprunki lily Tutorial"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen>
