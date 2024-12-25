@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import GameFrame from './GameFrame';
 import StartButton from './StartButton';
+import RelatedGames from './RelatedGames';
 
 const GAME_URL = 'https://game.sprunkix.com/game/sprunki-extra-characters/index.html';
 
@@ -17,6 +18,7 @@ export default function GameSection() {
       ) : (
         <GameFrame url={GAME_URL} />
       )}
+      <RelatedGames />
     </section>
   );
 }
