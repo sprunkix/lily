@@ -1,5 +1,5 @@
 import { SUPPORTED_LANGUAGES, type Language } from '@/lib/i18n';
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
 export default function LanguageSelector() {
   const router = useRouter();
