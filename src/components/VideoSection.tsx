@@ -7,12 +7,12 @@ interface VideoSectionProps {
 export default function VideoSection({ videos = [
   {
     title: 'Sprunki lily Gameplay',
-    url: 'https://www.youtube.com/embed/videoseries?list=PLxxx',
+    url: 'https://www.youtube.com/embed/2Hi6ZOsYmCc?si=3vm1ioHKokjLm71s',
     type: 'gameplay'
   },
   {
     title: 'Sprunki lily Tutorial',
-    url: 'https://www.youtube.com/embed/videoseries?list=PLyyy',
+    url: 'https://www.youtube.com/embed/fYMZU9xr5PQ?si=7UuBJlDR0plPJl85',
     type: 'tutorial'
   }
 ] }: VideoSectionProps) {
