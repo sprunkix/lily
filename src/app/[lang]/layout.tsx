@@ -1,8 +1,16 @@
 import type { Metadata } from 'next'
-import './globals.css'
+import '../globals.css'
+import { SUPPORTED_LANGUAGES, type Language } from '@/lib/i18n'
+import LanguageSelector from '@/components/LanguageSelector'
 import GoogleAnalytics from '@/components/analytics/GoogleAnalytics'
 
-const GA_MEASUREMENT_ID = 'G-J81W601FNV' // Replace with your actual GA4 measurement ID
+const GA_MEASUREMENT_ID = 'G-XXXXXXXXXX'
+
+export async function generateStaticParams() {
+  return SUPPORTED_LANGUAGES.map((lang) => ({
+    lang,
+  }));
+}
 
 export const metadata: Metadata = {
   title: 'Sprunki lily - Complete Character Guide and Game Information',
@@ -12,16 +20,20 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params,
 }: {
   children: React.ReactNode
+  params: { lang: Language }
 }) {
   return (
-    <html lang="en">
+    <html lang={params.lang}>
       <head>
         <GoogleAnalytics measurementId={GA_MEASUREMENT_ID} />
-		<meta name="google-adsense-account" content="ca-pub-0831789447587581"></meta>
       </head>
-      <body className="bg-background">{children}</body>
+      <body className="bg-background relative">
+        <LanguageSelector />
+        {children}
+      </body>
     </html>
   )
 }

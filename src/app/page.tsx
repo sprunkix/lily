@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
 	  <VideoSection />
 	  <GameSection />
-	  <Introduction />
+      <Introduction />
       <CharacterFeatures />
       <CharacterForms />
       <GameModules />
