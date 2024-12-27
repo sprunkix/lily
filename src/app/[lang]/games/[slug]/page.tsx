@@ -7,6 +7,7 @@ import GameFeatures from '@/components/games/GameFeatures';
 import GameVideos from '@/components/games/GameVideos';
 import GameFAQ from '@/components/games/GameFAQ';
 import RelatedGames from '@/components/game/RelatedGames';
+import GameComments from '@/components/comments/GameComments';
 
 interface GamePageProps {
   params: {
@@ -50,10 +51,15 @@ export default async function GamePage({ params }: GamePageProps) {
         title={game.title}
         description={game.description}
       />
-      <GamePlayer gameUrl={game.gameUrl} />
+      <GamePlayer 
+        gameUrl={game.gameUrl}
+        title={game.title}
+        description={game.description}
+      />
       <GameFeatures features={game.features} />
       <GameVideos videos={game.videos} />
       <GameFAQ faqs={game.faqs} />
+      <GameComments gameSlug={params.slug} />
       <RelatedGames currentGame={game.slug} lang={params.lang} />
     </div>
   );

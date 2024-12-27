@@ -1,5 +1,20 @@
+import type { Language } from '../i18n';
+import type { HomeContent } from '@/types/content';
 import type { GameData } from '@/types/game';
-import type { Language } from '@/lib/i18n';
+
+export async function getHomeContent(lang: Language = 'en'): Promise<HomeContent> {
+  const sections = ['introduction', 'features', 'forms', 'videos', 'game-modules', 'footer'];
+  
+  const content = await Promise.all(
+    sections.map(async section => {
+      const response = await fetch(`/api/content/${lang}/${section}`);
+      const data = await response.json();
+      return [section, data];
+    })
+  );
+
+  return Object.fromEntries(content);
+}
 
 export async function getGameData(lang: Language, slug: string): Promise<GameData> {
   const response = await fetch(`/api/games/${lang}/${slug}`);
@@ -22,7 +37,7 @@ export async function getRelatedGames(
   currentSlug: string, 
   limit: number = 3
 ): Promise<GameData[]> {
-  const response = await fetch(`/api/games/${lang}/related/${currentSlug}`);
+  const response = await fetch(`/api/games/${lang}/related/${currentSlug}?limit=${limit}`);
   if (!response.ok) {
     throw new Error('Failed to fetch related games');
   }

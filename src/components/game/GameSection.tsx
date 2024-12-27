@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import { useState } from 'react';
 import GameFrame from './GameFrame';
@@ -18,7 +18,7 @@ export default function GameSection() {
       ) : (
         <GameFrame url={GAME_URL} />
       )}
-      <RelatedGames />
+      <RelatedGames currentGame="sprunki-extra-characters" lang="en" />
     </section>
   );
 }

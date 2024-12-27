@@ -1,60 +1,41 @@
-import { cache } from 'react';
+import path from 'path';
+import { promises as fs } from 'fs';
+import matter from 'gray-matter';
 import type { GameData } from '@/types/game';
 import type { Language } from '@/types/language';
 
-// Simulated database/cache of games
-const gamesData: Record<Language, Record<string, GameData>> = {
-  en: {
-    'sprunki-adventure': {
-      slug: 'sprunki-adventure',
-      title: 'Sprunki Adventure',
-      description: 'Embark on an epic journey with Sprunki in this exciting adventure game.',
-      keywords: ['sprunki adventure', 'adventure game', 'puzzle game'],
-      ogImage: 'https://games.sprunkix.com/images/sprunki-adventure-og.jpg',
-      gameUrl: 'https://game.sprunkix.com/adventure',
-      features: [
-        {
-          title: 'Magical Worlds',
-          description: 'Explore 5 unique and enchanting worlds',
-          icon: '🌍'
-        }
-      ],
-      videos: [
-        {
-          title: 'Gameplay Trailer',
-          url: 'https://youtube.com/embed/xxxx',
-          thumbnail: 'https://games.sprunkix.com/images/trailer-thumb.jpg'
-        }
-      ],
-      faqs: [
-        {
-          question: 'How do I play Sprunki Adventure?',
-          answer: 'Use arrow keys to move, spacebar to jump, and collect gems to progress.'
-        }
-      ]
-    }
-  }
-};
+const GAMES_DIRECTORY = path.join(process.cwd(), 'src/data/games');
 
-export const getGameData = cache(async (lang: Language, slug: string): Promise<GameData> => {
-  const game = gamesData[lang]?.[slug];
-  if (!game) {
-    throw new Error(`Game not found: ${slug} (${lang})`);
-  }
-  return game;
-});
+export async function getGameData(lang: Language, slug: string): Promise<GameData> {
+  const fullPath = path.join(GAMES_DIRECTORY, lang, `${slug}.md`);
+  const fileContents = await fs.readFile(fullPath, 'utf8');
+  const { data } = matter(fileContents);
+  
+  return {
+    slug,
+    ...data as Omit<GameData, 'slug'>
+  };
+}
 
-export const getGameSlugs = cache(async (lang: Language): Promise<string[]> => {
-  return Object.keys(gamesData[lang] || {});
-});
+export async function getGameSlugs(lang: Language): Promise<string[]> {
+  const langPath = path.join(GAMES_DIRECTORY, lang);
+  const files = await fs.readdir(langPath);
+  return files
+    .filter(file => file.endsWith('.md'))
+    .map(file => file.replace(/\.md$/, ''));
+}
 
-export const getRelatedGames = cache(async (
+export async function getRelatedGames(
   lang: Language, 
   currentSlug: string, 
   limit: number = 3
-): Promise<GameData[]> => {
-  const allGames = Object.values(gamesData[lang] || {});
-  return allGames
-    .filter(game => game.slug !== currentSlug)
-    .slice(0, limit);
-});
+): Promise<GameData[]> {
+  const slugs = await getGameSlugs(lang);
+  const otherSlugs = slugs.filter(slug => slug !== currentSlug);
+  
+  const games = await Promise.all(
+    otherSlugs.slice(0, limit).map(slug => getGameData(lang, slug))
+  );
+  
+  return games;
+}
