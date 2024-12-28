@@ -1,13 +1,16 @@
 import { match } from "@formatjs/intl-localematcher";
 import Negotiator from "negotiator";
 
-export const locales = ["", "en", "en-US", "zh", "zh-CN", "zh-TW", 'zh-HK', 'ja', "ar", "es", "ru"];
+export const locales = ["", "en", "en-US","pt", "fr", "ko", "zh", "zh-CN", "zh-TW", 'zh-HK', 'ja', "ar", "es", "ru"];
 export const localeNames: any = {
   en: "🇺🇸 English",
-  zh: "🇨🇳 中文",
+  pt: "🇵🇹 Português",
+  fr: "🇫🇷 Français",
+  es: "🇪🇸 Español",
+  ko: "🇰🇷 한국어",
   ja: "🇯🇵 日本語",
   ar: "🇸🇦 العربية",
-  es: "🇪🇸 Español",
+  zh: "🇨🇳 中文",
   ru: "🇷🇺 Русский",
 };
 export const defaultLocale = "en";
@@ -19,6 +22,10 @@ export function getLocale(headers: any): string {
 
   return match(languages, locales, defaultLocale);
 }
+export function getLanguageFromPath(path: string) {
+  const lang = path.split('/')[1];
+  return localeNames.includes(lang) ? (lang) : 'en';
+}
 
 const dictionaries: any = {
   en: () => import("@/localization/en.json").then((module) => module.default),
@@ -27,6 +34,9 @@ const dictionaries: any = {
   ar: () => import("@/localization/ar.json").then((module) => module.default),
   es: () => import("@/localization/es.json").then((module) => module.default),
   ru: () => import("@/localization/ru.json").then((module) => module.default),
+  pt: () => import("@/localization/pt.json").then((module) => module.default),
+  fr: () => import("@/localization/fr.json").then((module) => module.default),
+  ko: () => import("@/localization/ko.json").then((module) => module.default),
 };
 
 export const getDictionary = async (locale: string) => {

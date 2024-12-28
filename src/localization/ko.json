@@ -1,0 +1,103 @@
+{
+    "header": {
+        "title": "Sprunki lily - 마법의 게임 캐릭터",
+        "description": "Sprunki lily의 세계를 이해하고 마스터하기 위한 완벽한 가이드"
+    },
+    "videos": {
+        "title": "인기 동영상",
+        "description": "최신 Sprunki lily 게임플레이와 튜토리얼 살펴보기",
+        "videos": [
+            {
+                "title": "Sprunki lily 게임플레이",
+                "url": "https://www.youtube.com/embed/2Hi6ZOsYmCc?si=3vm1ioHKokjLm71s",
+                "type": "gameplay"
+            },
+            {
+                "title": "Sprunki lily 튜토리얼",
+                "url": "https://www.youtube.com/embed/fYMZU9xr5PQ?si=7UuBJlDR0plPJl85",
+                "type": "tutorial"
+            }
+        ]   
+    },
+    "introduction": {
+        "title": "Sprunki lily 소개",
+        "subtitle": "Sprunki lily의 세계를 이해하고 마스터하기 위한 완벽한 가이드",
+        "description": "Sprunki lily는 환상적인 매력과 전략적 게임플레이 요소를 결합한 현대 게임에서 가�� 매력적인 캐릭터 중 하나로 등장합니다. 이 사랑받는 캐릭터는 독특한 능력과 매혹적인 개성으로 전 세계 플레이어들의 마음을 사로잡았습니다."
+    },
+    "features": {
+        "title": "캐릭터 특징과 능력",
+        "abilitiesTitle": "특수 능력",
+        "abilities": [
+            {
+                "title": "마법 변신 능력",
+                "description": "고유한 힘을 가진 다양한 형태로 변신"
+            },
+            {
+                "title": "특수 이동 기술",
+                "description": "고급 이동 메커니즘 마스터"
+            },
+            {
+                "title": "전략적 전투 기술",
+                "description": "전술적 전투 참여"
+            },
+            {
+                "title": "환경 상호작용 능력",
+                "description": "세계와 독특한 방식으로 상호작용"
+            }
+        ],
+        "developmentTitle": "캐릭터 성장", 
+        "development": "Sprunki lily의 캐릭터 성장 시스템을 통해 플레이어는 게임 여정에서 능력을 강화하고 새로운 기능을 해금할 수 있습니다. 각각의 발전은 새로운 전략적 선택과 게임플레이 가능성을 제공합니다."
+    },
+    "forms": {
+        "title": "캐릭터 형태와 변신",
+        "description": "Sprunki lily는 상황에 따라 사용할 수 있는 여러 형태를 가진 독특한 적응력과 변신 능력을 보유하고 있습니다",
+        "forms": [
+            {
+                "title": "기본 형태",
+                "description": "Sprunki lily의 원래 상태"
+            },
+            {
+                "title": "강화 형태",
+                "description": "능력이 향상된 버전"
+            },
+            {
+                "title": "특수 형태",
+                "description": "상황별 특수 변신"
+            },
+            {
+                "title": "궁극 형태",
+                "description": "도달 가능한 가장 강력한 상태"
+            }
+        ]
+    },
+    "gameModules": {
+        "title": "게임 모듈과 기능",
+        "description": "Sprunki lily의 게임 경험은 다양한 전문 모듈을 통해 향상됩니다",
+        "modules": [    
+            {       
+                "icon": "🎮",
+                "title": "스토리 모드",
+                "description": "Sprunki lily의 완전한 내러티브 여정 체험"
+            },
+            {
+                "icon": "🏆",
+                "title": "��린지 모드",
+                "description": "전문 미션에서 당신의 실력을 시험"
+            },
+            {
+                "icon": "👥",
+                "title": "멀티플레이어 기능",
+                "description": "Sprunki lily 유니버스에서 다른 플레이어와 상호작용"
+            },
+            {
+                "icon": "🎨",
+                "title": "커스텀 시나리오",
+                "description": "나만의 Sprunki lily 모험 만들기"
+            }
+        ]
+    },
+    "footer": {
+        "copyright": "© {year} Sprunki lily 공식 팬 사이트. 모든 권리 보유.",
+        "followUs": "최신 소식을 위해 소셜 미디어를 팔로우하고 커뮤니티 포럼에 참여하세요."
+    }       
+}

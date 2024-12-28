@@ -1,8 +1,12 @@
-
+'use client';
 import { useRouter, usePathname } from 'next/navigation';
 import { defaultLocale, localeNames } from "@/lib/i18n";
 
-export default function LanguageDropdown() {
+export default function LanguageDropdown({
+    params: { currentLang },
+  }: {
+    params: { currentLang: string };
+  }) {
   const router = useRouter();
   const pathname = usePathname();
 
@@ -14,12 +18,12 @@ export default function LanguageDropdown() {
   return (
     <select
       onChange={(e) => handleLanguageChange(e.target.value)}
-      value={defaultLocale}
+      value={currentLang}
       className="bg-white border border-secondary/20 rounded-md px-3 py-1 text-sm"
     >
-      {Object.keys(localeNames).map((lang) => (
+      {Object.keys(localeNames).map((lang:string) => (
         <option key={lang} value={lang}>
-          {lang.toUpperCase()}
+          {localeNames[lang].toUpperCase()}
         </option>
       ))}
     </select>

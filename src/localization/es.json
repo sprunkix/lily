@@ -1,0 +1,103 @@
+{
+    "header": {
+        "title": "Sprunki lily - El Personaje Mágico del Juego",
+        "description": "Tu guía completa para entender y dominar el mundo de Sprunki lily"
+    },
+    "videos": {
+        "title": "Vídeos Populares",
+        "description": "Explora las últimas jugadas y tutoriales de Sprunki lily",
+        "videos": [
+            {
+                "title": "Gameplay de Sprunki lily",
+                "url": "https://www.youtube.com/embed/2Hi6ZOsYmCc?si=3vm1ioHKokjLm71s",
+                "type": "gameplay"
+            },
+            {
+                "title": "Tutorial de Sprunki lily",
+                "url": "https://www.youtube.com/embed/fYMZU9xr5PQ?si=7UuBJlDR0plPJl85",
+                "type": "tutorial"
+            }
+        ]   
+    },
+    "introduction": {
+        "title": "Introducción a Sprunki lily",
+        "subtitle": "Tu guía completa para entender y dominar el mundo de Sprunki lily",
+        "description": "Sprunki lily emerge como uno de los personajes más cautivadores en los juegos modernos, combinando encanto fantástico con elementos de juego estratégicos. Este querido personaje ha conquistado los corazones de jugadores en todo el mundo a través de sus habilidades únicas y personalidad encantadora."
+    },
+    "features": {
+        "title": "Características y Habilidades del Personaje",
+        "abilitiesTitle": "Habilidades Únicas",
+        "abilities": [
+            {
+                "title": "Capacidades de Transformación Mágica",
+                "description": "Transformarse en diferentes formas con poderes únicos"
+            },
+            {
+                "title": "Técnicas Especiales de Movimiento",
+                "description": "Dominar mecánicas avanzadas de movimiento"
+            },
+            {
+                "title": "Habilidades de Combate Estratégico",
+                "description": "Participar en batallas tácticas"
+            },
+            {
+                "title": "Poderes de Interacción Ambiental",
+                "description": "Interactuar con el mundo de formas únicas"
+            }
+        ],
+        "developmentTitle": "Desarrollo del Personaje", 
+        "development": "El sistema de progresión de Sprunki lily permite a los jugadores mejorar habilidades y desbloquear nuevas características a lo largo de su viaje de juego. Cada avance trae nuevas opciones estratégicas y posibilidades de juego."
+    },
+    "forms": {
+        "title": "Formas y Transformaciones del Personaje",
+        "description": "Sprunki lily posee la habilidad única de adaptarse y transformarse, con múltiples formas que los jugadores pueden utilizar en diferentes situaciones",
+        "forms": [
+            {
+                "title": "Forma Base",
+                "description": "El estado original de Sprunki lily"
+            },
+            {
+                "title": "Forma Mejorada",
+                "description": "Versión con capacidades aumentadas"
+            },
+            {
+                "title": "Formas Especiales",
+                "description": "Transformaciones específicas para situaciones"
+            },
+            {
+                "title": "Forma Definitiva",
+                "description": "El estado más poderoso alcanzable"
+            }
+        ]
+    },
+    "gameModules": {
+        "title": "Módulos y Características del Juego",
+        "description": "La experiencia de juego de Sprunki lily se mejora a través de varios módulos especializados",
+        "modules": [    
+            {       
+                "icon": "🎮",
+                "title": "Modo Historia",
+                "description": "Experimenta el viaje narrativo completo de Sprunki lily"
+            },
+            {
+                "icon": "🏆",
+                "title": "Modo Desafío",
+                "description": "Pon a prueba tus habilidades en misiones especializadas"
+            },
+            {
+                "icon": "👥",
+                "title": "Características Multijugador",
+                "description": "Interactúa con otros jugadores en el universo de Sprunki lily"
+            },
+            {
+                "icon": "🎨",
+                "title": "Escenarios Personalizados",
+                "description": "Crea tus propias aventuras con Sprunki lily"
+            }
+        ]
+    },
+    "footer": {
+        "copyright": "© {year} Sitio Oficial de Fans de Sprunki lily. Todos los derechos reservados.",
+        "followUs": "Para las últimas actualizaciones, síguenos en redes sociales y únete a nuestros foros comunitarios."
+    }       
+}    

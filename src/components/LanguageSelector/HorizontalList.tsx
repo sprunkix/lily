@@ -4,9 +4,12 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { defaultLocale, localeNames } from "@/lib/i18n";
 
-export default function HorizontalLanguageList() {
+export default function HorizontalLanguageList({
+  params: { currentLang },
+}: {
+  params: { currentLang: string };
+}) {
   const pathname = usePathname();
-  const currentLang = pathname.split('/')[1] || 'en';
   const pathWithoutLang = pathname.replace(/^\/[a-z]{2}/, '');
 
   return (
@@ -21,7 +24,7 @@ export default function HorizontalLanguageList() {
                 : 'text-text-secondary hover:text-primary'
             }`}
           >
-            {lang.toUpperCase()}
+            {localeNames[lang].toUpperCase()}
           </Link>
         </li>
       ))}

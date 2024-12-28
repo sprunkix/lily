@@ -1,0 +1,103 @@
+{
+    "header": {
+        "title": "Sprunki lily - 魔法のゲームキャラクター",
+        "description": "Sprunki lilyの世界を理解し、マスターするための完全ガイド"
+    },
+    "videos": {
+        "title": "人気の動画",
+        "description": "最新のSprunki lilyのゲームプレイとチュートリアルを探索",
+        "videos": [
+            {
+                "title": "Sprunki lilyゲームプレイ",
+                "url": "https://www.youtube.com/embed/2Hi6ZOsYmCc?si=3vm1ioHKokjLm71s",
+                "type": "gameplay"
+            },
+            {
+                "title": "Sprunki lilyチュートリアル",
+                "url": "https://www.youtube.com/embed/fYMZU9xr5PQ?si=7UuBJlDR0plPJl85",
+                "type": "tutorial"
+            }
+        ]   
+    },
+    "introduction": {
+        "title": "Sprunki lilyの紹介",
+        "subtitle": "Sprunki lilyの世界を理解し、マスターするための完全ガイド",
+        "description": "Sprunki lilyは、幻想的な魅力と戦略的なゲームプレイ要素を組み合わせた、現代ゲームの中で最も魅力的なキャラクターの一つとして登場します。このキャラクターは、独特の能力と魅惑的な個性により、世界中のプレイヤーの心を捉えています。"
+    },
+    "features": {
+        "title": "キャラクターの特徴と能力",
+        "abilitiesTitle": "特殊能力",
+        "abilities": [
+            {
+                "title": "魔法の変身能力",
+                "description": "独自の力を持つ異なる形態に変身"
+            },
+            {
+                "title": "特殊な移動テクニック",
+                "description": "高度な移動メカニクスをマスター"
+            },
+            {
+                "title": "戦略的戦闘スキル",
+                "description": "戦術的な戦闘に参加"
+            },
+            {
+                "title": "環境相互作用能力",
+                "description": "世界とユニークな方法で相互作用"
+            }
+        ],
+        "developmentTitle": "キャラクター育成", 
+        "development": "Sprunki lilyのキャラクター成長システムにより、プレイヤーはゲーム旅行を通じて能力を強化し、新機能をアンロックできます。進歩するた���に、新しい戦略オプションとゲームプレイの可能性が広がります。"
+    },
+    "forms": {
+        "title": "キャラクターの形態と変身",
+        "description": "Sprunki lilyは、状況に応じて使用できる複数の形態を持つ、適応と変身の独特な能力を持っています",
+        "forms": [
+            {
+                "title": "基本形態",
+                "description": "Sprunki lilyの元の状態"
+            },
+            {
+                "title": "強化形態",
+                "description": "能力が向上したバージョン"
+            },
+            {
+                "title": "特殊形態",
+                "description": "状況特有の変身"
+            },
+            {
+                "title": "究極形態",
+                "description": "到達可能な最も強力な状態"
+            }
+        ]
+    },
+    "gameModules": {
+        "title": "ゲームモジュールと機能",
+        "description": "Sprunki lilyのゲーム体験は、様々な専門モジュールによって強化されています",
+        "modules": [    
+            {       
+                "icon": "🎮",
+                "title": "ストーリーモード",
+                "description": "Sprunki lilyの完全なナラティブ旅行を体験"
+            },
+            {
+                "icon": "🏆",
+                "title": "チャレンジモード",
+                "description": "専門ミッションであなたのスキルをテスト"
+            },
+            {
+                "icon": "👥",
+                "title": "マルチプレイヤー機能",
+                "description": "Sprunki lilyユニバースで他のプレイヤーと交流"
+            },
+            {
+                "icon": "🎨",
+                "title": "カスタムシナリオ",
+                "description": "Sprunki lilyで独自の冒険を作成"
+            }
+        ]
+    },
+    "footer": {
+        "copyright": "© {year} Sprunki lily 公式ファンサイト。全権利所有。",
+        "followUs": "最新情報については、ソーシャルメディアをフォローし、コミュニティフォーラムにご参加ください。"
+    }       
+}
