@@ -10,7 +10,7 @@ import { defaultLocale, getDictionary, localeNames } from "@/lib/i18n";
 import { HomeContent } from '@/types/content'
 
 export default async function Home() {
-  const langName = lang || defaultLocale;
+  const langName = defaultLocale;
   const dict = await getDictionary(langName);
   const GAME_URL = 'https://game.sprunkix.com/game/sprunki-extra-characters/index.html';
   return (

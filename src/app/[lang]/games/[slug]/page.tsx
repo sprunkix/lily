@@ -1,6 +1,4 @@
 import { Metadata } from 'next';
-import { getGameData } from '@/lib/content';
-import { SUPPORTED_LANGUAGES, type Language } from '@/lib/i18n';
 import GameHeader from '@/components/games/GameHeader';
 import GamePlayer from '@/components/games/GamePlayer';
 import GameFeatures from '@/components/games/GameFeatures';
@@ -11,7 +9,7 @@ import GameComments from '@/components/comments/GameComments';
 
 interface GamePageProps {
   params: {
-    lang: Language;
+    lang: string;
     slug: string;
   };
 }
@@ -21,7 +19,7 @@ export async function getServerSideProps(params: GamePageProps) {
 }
 
 export async function generateMetadata({ params }: GamePageProps): Promise<Metadata> {
-  const game = await getGameData(params.lang, params.slug);
+  const game ={ title: "Sprunki Extra Characters", description: "Play Sprunki Extra Characters online for free", keywords: "Sprunki Extra Characters, Sprunki, Sprunki Games, Sprunki Ketchup, Sprunki Mustard, Sprunki Retake, Sprunki Phase 10", ogImage: "https://sprunkix.com/images/sprunki-extra-characters.jpg" } //;{await getGameData(params.lang, params.slug);}
   
   return {
     title: `${game.title} - Play Free Online | Sprunki Games`,
@@ -36,7 +34,8 @@ export async function generateMetadata({ params }: GamePageProps): Promise<Metad
 }
 
 export default async function GamePage({ params }: GamePageProps) {
-  const game = await getGameData(params.lang, params.slug);
+  const game ={ title: "Sprunki Extra Characters", gameUrl: "https://game.sprunkix.com/game/sprunki-extra-characters/index.html", description: "Play Sprunki Extra Characters online for free", keywords: "Sprunki Extra Characters, Sprunki, Sprunki Games, Sprunki Ketchup, Sprunki Mustard, Sprunki Retake, Sprunki Phase 10", ogImage: "https://sprunkix.com/images/sprunki-extra-characters.jpg" } //;{await getGameData(params.lang, params.slug);}
+  
   
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -49,11 +48,12 @@ export default async function GamePage({ params }: GamePageProps) {
         title={game.title}
         description={game.description}
       />
-      <GameFeatures features={game.features} />
-      <GameVideos videos={game.videos} />
-      <GameFAQ faqs={game.faqs} />
-      <GameComments gameSlug={params.slug} />
-      <RelatedGames currentGame={game.slug} lang={params.lang} />
+    
     </div>
   );
+   /**  <GameFeatures features={game.features} />*/
+     /**  <GameVideos videos={game.videos} />*/
+     /**  <GameFAQ faqs={game.faqs} />*/
+     /**  <GameComments gameSlug={params.slug} />*/
+     /**  <RelatedGames currentGame={game.slug} lang={params.lang} />*/
 }

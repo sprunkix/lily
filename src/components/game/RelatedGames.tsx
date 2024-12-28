@@ -1,10 +1,8 @@
-import { getRelatedGames } from '@/lib/games';
-import type { Language } from '@/lib/i18n';
 import RelatedGame from './RelatedGame';
 
 interface RelatedGamesProps {
   currentGame: string;
-  lang: Language;
+  lang: string;
 }
 
 export default async function RelatedGames({ currentGame, lang }: RelatedGamesProps) {
