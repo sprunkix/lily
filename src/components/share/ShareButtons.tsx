@@ -26,7 +26,7 @@ export default function ShareButtons({ url, title, description }: ShareButtonsPr
   return (
     <div className="flex items-center gap-4 py-4">
       <span className="text-text-secondary font-medium">Share:</span>
-      <FacebookShareButton url={url} quote={shareText}>
+      <FacebookShareButton url={url} title={shareText}>
         <FacebookIcon size={iconSize} round />
       </FacebookShareButton>
 

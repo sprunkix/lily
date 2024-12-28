@@ -14,9 +14,6 @@ interface GamePageProps {
   };
 }
 
-export async function getServerSideProps(params: GamePageProps) {
-    //const game = await getGameData(params.lang, params.slug);
-}
 
 export async function generateMetadata({ params }: GamePageProps): Promise<Metadata> {
   const game ={ title: "Sprunki Extra Characters", description: "Play Sprunki Extra Characters online for free", keywords: "Sprunki Extra Characters, Sprunki, Sprunki Games, Sprunki Ketchup, Sprunki Mustard, Sprunki Retake, Sprunki Phase 10", ogImage: "https://sprunkix.com/images/sprunki-extra-characters.jpg" } //;{await getGameData(params.lang, params.slug);}

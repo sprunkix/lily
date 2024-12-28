@@ -15,18 +15,19 @@ export default function GameComments({ gameSlug }: GameCommentsProps) {
       <h2 className="text-3xl font-bold text-text-primary mb-6">Comments</h2>
       <Giscus
         id="comments"
-        repo="your-github-username/your-repo-name"
-        repoId="YOUR_REPOSITORY_ID"
-        category="Games"
-        categoryId="YOUR_CATEGORY_ID"
-        mapping="specific"
+        repo="sprunkix/sprunkix"
+        repoId="R_kgDONNMsvA"
+        category="sprunki-game"
+        categoryId="DIC_kwDONNMsvM4ClkiU"
+        mapping="pathname"
         term={gameSlug}
         reactionsEnabled="1"
         emitMetadata="0"
         inputPosition="top"
-        theme={theme === 'dark' ? 'dark' : 'light'}
+        theme="preferred_color_scheme"
         lang="en"
         loading="lazy"
+        strict="0"
       />
     </section>
   );
