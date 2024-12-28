@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import { getGameData } from '@/lib/games';
+import { getGameData } from '@/lib/content';
 import { SUPPORTED_LANGUAGES, type Language } from '@/lib/i18n';
 import GameHeader from '@/components/games/GameHeader';
 import GamePlayer from '@/components/games/GamePlayer';
@@ -16,15 +16,8 @@ interface GamePageProps {
   };
 }
 
-export async function generateStaticParams() {
-  const paths = [];
-  for (const lang of SUPPORTED_LANGUAGES) {
-    const slugs = await getGameSlugs(lang);
-    for (const slug of slugs) {
-      paths.push({ lang, slug });
-    }
-  }
-  return paths;
+export async function getServerSideProps(params: GamePageProps) {
+    //const game = await getGameData(params.lang, params.slug);
 }
 
 export async function generateMetadata({ params }: GamePageProps): Promise<Metadata> {

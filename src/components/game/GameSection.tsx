@@ -5,9 +5,7 @@ import GameFrame from './GameFrame';
 import StartButton from './StartButton';
 import RelatedGames from './RelatedGames';
 
-const GAME_URL = 'https://game.sprunkix.com/game/sprunki-extra-characters/index.html';
-
-export default function GameSection() {
+export default function GameSection({gameUrl}:{gameUrl:string}) {
   const [isLoaded, setIsLoaded] = useState(false);
 
   return (
@@ -16,7 +14,7 @@ export default function GameSection() {
       {!isLoaded ? (
         <StartButton onClick={() => setIsLoaded(true)} />
       ) : (
-        <GameFrame url={GAME_URL} />
+        <GameFrame url={gameUrl} />
       )}
       <RelatedGames currentGame="sprunki-extra-characters" lang="en" />
     </section>

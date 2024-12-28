@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import GoogleAnalytics from '@/components/analytics/GoogleAnalytics'
-
 const GA_MEASUREMENT_ID = 'G-J81W601FNV' // Replace with your actual GA4 measurement ID
+import { defaultLocale } from "@/lib/i18n";
 
 export const metadata: Metadata = {
   title: 'Sprunki lily - Complete Character Guide and Game Information',
@@ -12,14 +12,16 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params: { lang },
 }: {
-  children: React.ReactNode
+  children: React.ReactNode,
+  params: { lang: string | undefined };
 }) {
   return (
-    <html lang="en">
+    <html lang={lang || defaultLocale}>
       <head>
         <GoogleAnalytics measurementId={GA_MEASUREMENT_ID} />
-		<meta name="google-adsense-account" content="ca-pub-0831789447587581"></meta>
+		    <meta name="google-adsense-account" content="ca-pub-0831789447587581"></meta>
       </head>
       <body className="bg-background">{children}</body>
     </html>
