@@ -1,9 +1,9 @@
 ---
-title: Sprunki Phase 10
-description: Embark on an epic journey with Sprunki in this exciting adventure game. Explore magical worlds, solve puzzles, and collect treasures.
+title: Sprunki Phase 10 - The Ultimate Musical Journey
+description: Create, Mix, and Master Your Beats in Sprunki Phase 10
 slug: sprunki-phase-10
-gameUrl: https://game.sprunkix.com/phase-10
-ogImage: https://games.sprunkix.com/images/sprunki-ketchup-2.0-og.jpg
+gameUrl: https://wowtbc.net/sprunkin/phase10/index.html
+ogImage: /images/sprunki-phase-10.jpg
 date: 2024-12-28
 position: 1
 keywords:
@@ -14,15 +14,18 @@ keywords:
   - free game
 
 features:
-  - title: Magical Worlds
-    description: Explore 5 unique and enchanting worlds
-    icon: 🌍
-  - title: Challenging Puzzles
-    description: Solve intricate puzzles that test your wit
-    icon: 🧩
-  - title: Character Upgrades
-    description: Unlock new abilities and power-ups
-    icon: ⭐
+  - title: 10 Unique Environments
+    description: Explore ten distinct musical worlds in Sprunki Phase 10.
+    icon: 🎵
+  - title: Enhanced Visuals
+    description: Experience stunning visual feedback while creating.
+    icon: 🎨
+  - title: Advanced Controls
+    description: Fine-tune your mix with precision tools.
+    icon: 🎚️  
+  - title: Special Effects
+    description: Add professional effects to your Sprunki Phase 10 mix.
+    icon: 💫
 
 videos:
   - title: Gameplay Trailer
@@ -30,10 +33,12 @@ videos:
     thumbnail: https://games.sprunkix.com/images/trailer-thumb.jpg
 
 faqs:
-  - question: How do I play Sprunki Phase 10?
-    answer: Use arrow keys to move, spacebar to jump, and collect gems to progress through levels.
+  - question: What's new in Sprunki Phase 10?
+    answer: Sprunki Phase 10 introduces ten unique musical environments, advanced mixing tools, enhanced visual feedback, and a expanded sound library while maintaining the intuitive gameplay you love.
+  - question: Can I save my Phase 10 creations?
+    answer: Yes! Sprunki Phase 10 allows you to save and share your musical creations with the community.
   - question: Is Sprunki Phase 10 free to play?
-    answer: Yes, Sprunki Phase 10 is completely free to play in your web browser.
+    answer: You can enjoy Sprunki Phase 10 online for free right here on our website.
 ---
 
 # Game Overview

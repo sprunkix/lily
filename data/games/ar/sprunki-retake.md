@@ -1,60 +1,65 @@
 ---
 title: Sprunki Retake
-description: Embark on an epic journey with Sprunki in this exciting adventure game. Explore magical worlds, solve puzzles, and collect treasures.
+description:  Retake يمثل تجديدًا جديدًا للتجربة الموسيقية التقليدية. هو حيث يلتقي الإبداع مع التكنولوجيا ليسمح لللاعبين بإنشاء أصوات مختلفة بأدوات وميزات محسّنة.
 slug: sprunki-retake
-gameUrl: https://game.sprunkix.com/retake
-ogImage: https://games.sprunkix.com/images/sprunki-retake-og.jpg
+gameUrl: https://sprunki.org/sprunki-retake.embed
+ogImage: /images/sprunki-retake.png
 date: 2024-12-28
 position: 1
 keywords:
   - sprunki retake
   - retake game
-  - puzzle game
-  - online game
-  - free game
+  - لعبة صوتية
+  - لعبة صوتية
+  - لعبة صوتية
 
 features:
-  - title: Magical Worlds
-    description: Explore 5 unique and enchanting worlds
+  - title: مكتبة صوتية تمديدة
+    description: استكشف مكتبة صوتية تمديدة بأصوات وأغاني محسّنة.
     icon: 🌍
-  - title: Challenging Puzzles
-    description: Solve intricate puzzles that test your wit
+  - title: خلط متقدم
+    description: خلط أفضل بأدوات التحكم الدقيقة.
     icon: 🧩
-  - title: Character Upgrades
-    description: Unlock new abilities and power-ups
+  - title: رسومات مخصصة
+    description: تجربة تأثيرات خاصة خاصة بـ Sprunki Retake.
     icon: ⭐
+  - title: تأثيرات خاصة
+    description: أضف تأثيرات خاصة إلى خلطك في Sprunki Retake.
+    icon: 💫
 
 videos:
-  - title: Gameplay Trailer
+  - title: مقطع لعبة
     url: https://youtube.com/embed/xxxx
     thumbnail: https://games.sprunkix.com/images/trailer-thumb.jpg
 
 faqs:
-  - question: How do I play Sprunki Retake?
-    answer: Use arrow keys to move, spacebar to jump, and collect gems to progress through levels.
-  - question: Is Sprunki Retake free to play?
-    answer: Yes, Sprunki Retake is completely free to play in your web browser.
+  - question: ما الجديد في Sprunki Retake؟
+    answer: Sprunki Retake يقدم صوت أفضل، أدوات خلط جديدة، وتأثيرات محسّنة لتجربة موسيقية أعلى.
+  - question: هل يمكنني إدخال مشاريعي السابقة إلى Sprunki Retake؟
+    answer: نعم! Sprunki Retake يدعم إدخال مشاريع من الإصدارات السابقة بينما يوفر خيارات تحسين جديدة.
+  - question: هل يناسب Sprunki Retake اللاعبين الجدد؟
+    answer: بالطبع! على الرغم من أن Sprunki Retake يوفر ميزات متقدمة، إلا أنه يحتوي على واجهة سهلة الاستخدام مناسبة لجميع المستويات.
 ---
 
-# Game Overview
+# ملخص اللعبة
 
-Sprunki Retake is an exciting card game that combines puzzle-solving with action gameplay. Players guide Sprunki through various magical worlds, each offering unique challenges and rewards.
+Sprunki Retake هي لعبة رهيبة تجمع بين الألغاز واللعبة التحركية. يأخذ اللاعبون Sprunki عبر عالمات مختلفة، كل منها يوفر تحديات مختلفة ومكافآت.
 
-## Gameplay Mechanics
+## آليات اللعب
 
-The game features intuitive controls and progressive difficulty, making it accessible to new players while providing challenges for experienced gamers. Players can:
+تتميز اللعبة بأدوات التحكم المبتكرة والتحديات المتزايدة، مما يجعلها متاحة لللاعبين الجدد بينما توفر تحديات لللاعبين المتمرسين. يمكن لللاعبين:
 
-- Collect magical gems to power up abilities
-- Solve environmental puzzles
-- Discover hidden secrets in each level
-- Unlock new character abilities
+- جمع أحجار مذهلة لتحسين قدراتهم
+- حل الألغاز البيئية
+- اكتشف الأسرار المخفية في كل مستوى
+- فتح قدرات الشخصيات الجديدة
 
-## World Design
+## تصميم العالم
 
-Each world in Sprunki Retake has its own unique theme and challenges:
+كل عالم في Sprunki Retake يحمل موضوعه الخاص والتحديات:
 
-1. Crystal Caverns
-2. Cloud Kingdom
-3. Mystic Forest
-4. Lava Lands
-5. Star Haven
+1. أنفاق الأحجار
+2. عالم الأمطار
+3. عالم الأشجار المذهلة
+4. أراضي الحمم
+5. عالم النجوم

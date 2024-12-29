@@ -1,60 +1,60 @@
 ---
 title: Sprunki Ketchup 2.0
-description: Embark on an epic journey with Sprunki in this exciting adventure game. Explore magical worlds, solve puzzles, and collect treasures.
+description: تستمر التطورات مع رسومات محسّنة، وآليات صوتية جديدة، وميزات لعب أعمق.
 slug: sprunki-ketchup-2.0
-gameUrl: https://game.sprunkix.com/ketchup-2.0
-ogImage: https://games.sprunkix.com/images/sprunki-ketchup-2.0-og.jpg
+gameUrl: https://game.sprunkix.com/game/sprunki-katchup-2/index.html
+ogImage: /images/games/sprunki-ketchup-2.jpg
 date: 2024-12-28
 position: 1
 keywords:
   - sprunki ketchup 2.0
-  - ketchup game
-  - puzzle game
-  - online game
-  - free game
+  - لعبة صوتية
+  - لعبة صوتية
+  - لعبة صوتية
+  - لعبة صوتية
 
 features:
-  - title: Magical Worlds
-    description: Explore 5 unique and enchanting worlds
+  - title: رسومات محسّنة
+    description: رسومات محسّنة وأصوات أكثر تعقيدًا لأكثر هواءً
     icon: 🌍
-  - title: Challenging Puzzles
-    description: Solve intricate puzzles that test your wit
+  - title: تحديات جديدة
+    description: أصبحت المستويات أكثر تعقيدًا وتحديًا
     icon: 🧩
-  - title: Character Upgrades
-    description: Unlock new abilities and power-ups
+  - title: منصة المجتمع
+    description: شارك أعمالك الموسيقية بسهولة مع مجتمع أكبر
     icon: ⭐
 
 videos:
-  - title: Gameplay Trailer
+  - title: مقطع لعبة
     url: https://youtube.com/embed/xxxx
     thumbnail: https://games.sprunkix.com/images/trailer-thumb.jpg
 
 faqs:
-  - question: How do I play Sprunki Ketchup 2.0?
-    answer: Use arrow keys to move, spacebar to jump, and collect gems to progress through levels.
-  - question: Is Sprunki Ketchup 2.0 free to play?
-    answer: Yes, Sprunki Ketchup 2.0 is completely free to play in your web browser.
+  - question: ما الجديد في 2.0؟
+    answer: رسومات محسّنة، أصوات جديدة، وميزات لعب أعمق تجعل هذا الإصدار منفصلًا.
+  - question: هل يتوافق مع الإحفاظات السابقة؟
+    answer: قد يحتاج اللاعبون إلى إعادة البدء من جديد كون الإحفاظات من الإصدار الأصلي قد لا تتحمل عبر الإصدارات الجديدة بسبب التغييرات الكبيرة في آليات اللعب.
 ---
 
 # Game Overview
 
-Sprunki Ketchup 2.0 is an exciting platformer that combines puzzle-solving with action gameplay. Players guide Sprunki through various magical worlds, each offering unique challenges and rewards.
+Sprunki Ketchup 2.0 هي لعبة مثيرة تجمع بين الألغاز واللعبة المتفاعلة. يأخذ اللاعبون Sprunki عبر عالم مثير من العالمات، كل منها يقدم مشاكل ومكافآت مميزة.
 
-## Gameplay Mechanics
+## آليات اللعب
 
-The game features intuitive controls and progressive difficulty, making it accessible to new players while providing challenges for experienced gamers. Players can:
+تتميز اللعبة بالتحكم المباشر والصعوبة المتناقصة، مما يجعلها متاحة لللاعبين الجدد وتوفير تحديات لللاعبين المتمرسين. يمكن لللاعبين:
 
-- Collect magical gems to power up abilities
-- Solve environmental puzzles
-- Discover hidden secrets in each level
-- Unlock new character abilities
+- جمع العالمات المثيرة لتحسين قدراتهم
+- حل الألغاز البيئية
+- اكتشاف الأسرار المخفية في كل مستوى
+- فتح قدرات جديدة للشخصية
 
-## World Design
+## تصميم العالم
 
-Each world in Sprunki Ketchup 2.0 has its own unique theme and challenges:
+كل عالم في Sprunki Ketchup 2.0 يحمل موضوعه الخاص والتحديات:
 
-1. Crystal Caverns
-2. Cloud Kingdom
-3. Mystic Forest
-4. Lava Lands
-5. Star Haven
+1. أنفاق الأحجار
+2. عالم الأمطار
+3. عالم الأشجار المثيرة
+4. عالم البراكين
+5. عالم النجوم

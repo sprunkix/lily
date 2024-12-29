@@ -1,60 +1,65 @@
 ---
-title: Sprunki Phase 10
-description: Embark on an epic journey with Sprunki in this exciting adventure game. Explore magical worlds, solve puzzles, and collect treasures.
+title: Sprunki Phase 10 - الرحلة الموسيقية المثالية
+description: أنشأ، خلط، وأصبح أسطورة في Sprunki Phase 10
 slug: sprunki-phase-10
-gameUrl: https://game.sprunkix.com/phase-10
-ogImage: https://games.sprunkix.com/images/sprunki-ketchup-2.0-og.jpg
+gameUrl: https://wowtbc.net/sprunkin/phase10/index.html
+ogImage: /images/sprunki-phase-10.jpg
 date: 2024-12-28
 position: 1
 keywords:
   - sprunki phase 10
-  - phase 10 game
-  - puzzle game
-  - online game
-  - free game
+  - لعبة صوتية
+  - لعبة صوتية
+  - لعبة صوتية
+  - لعبة صوتية
 
 features:
-  - title: Magical Worlds
-    description: Explore 5 unique and enchanting worlds
-    icon: 🌍
-  - title: Challenging Puzzles
-    description: Solve intricate puzzles that test your wit
-    icon: 🧩
-  - title: Character Upgrades
-    description: Unlock new abilities and power-ups
-    icon: ⭐
+  - title: 10 عالمات مختلفة
+    description: استكشف عالمات موسيقية مختلفة في Sprunki Phase 10.
+    icon: 🎵
+  - title: رسومات محسّنة
+    description: تجربة الرسومات المحسّنة في أثناء صنع الموسيقى.
+    icon: 🎨
+  - title: تحكم متقدم
+    description: خلط أفضل بأدوات التحكم الدقيقة.
+    icon: 🎚️  
+  - title: التأثيرات الخاصة
+    description: أضف تأثيرات خاصة إلى خلطك في Sprunki Phase 10.
+    icon: 💫
 
 videos:
-  - title: Gameplay Trailer
+  - title: مقطع لعبة
     url: https://youtube.com/embed/xxxx
     thumbnail: https://games.sprunkix.com/images/trailer-thumb.jpg
 
 faqs:
-  - question: How do I play Sprunki Phase 10?
-    answer: Use arrow keys to move, spacebar to jump, and collect gems to progress through levels.
-  - question: Is Sprunki Phase 10 free to play?
-    answer: Yes, Sprunki Phase 10 is completely free to play in your web browser.
+  - question: ما الجديد في Sprunki Phase 10؟
+    answer: Sprunki Phase 10 يقدم عشرة عالمات موسيقية مختلفة، أدوات خلط متقدمة، رسومات محسّنة، ومكتبة صوتية تمديدة، ولعبة سهلة الفهم.
+  - question: هل يمكنني حفظ أعمالي في Phase 10؟
+    answer: نعم! Sprunki Phase 10 يسمح لك بحفظ ومشاركة أعمالك الموسيقية مع المجتمع.
+  - question: هل هي مجانية للعب في Sprunki Phase 10؟
+    answer: يمكنك التمتع بSprunki Phase 10 عبر الإنترنت مجانًا هنا على موقعنا.
 ---
 
-# Game Overview
+# ملخص اللعبة
 
-Sprunki Phase 10 is an exciting card game that combines puzzle-solving with action gameplay. Players guide Sprunki through various magical worlds, each offering unique challenges and rewards.
+Sprunki Phase 10 هي لعبة أثرية تجمع بين الألغاز واللعب بالإضافة إلى أنها تضمن عالمات موسيقية مختلفة، أدوات خلط متقدمة، رسومات محسّنة، ومكتبة صوتية تمديدة، ولعبة سهلة الفهم.
 
-## Gameplay Mechanics
+## آليات اللعب
 
-The game features intuitive controls and progressive difficulty, making it accessible to new players while providing challenges for experienced gamers. Players can:
+تتميز اللعبة بأدوات التحكم المبتكرة والتحديات المتزايدة، مما يجعلها متاحة لللاعبين الجدد بينما توفر تحديات لللاعبين المتمرسين. يمكن لللاعبين:
 
-- Collect magical gems to power up abilities
-- Solve environmental puzzles
-- Discover hidden secrets in each level
-- Unlock new character abilities
+- جمع الأحجار المثيرة لتحسين قدراتهم
+- حل الألغاز البيئية
+- اكتشاف الأسرار المخفية في كل مستوى
+- فتح قدرات الشخصيات الجديدة
 
-## World Design
+## تصميم العالم
 
-Each world in Sprunki Phase 10 has its own unique theme and challenges:
+كل عالم في Sprunki Phase 10 يحمل موضوع خاص وتحديات:
 
-1. Crystal Caverns
-2. Cloud Kingdom
-3. Mystic Forest
-4. Lava Lands
-5. Star Haven
+1. أنفاق الأحجار
+2. عالم الأمطار
+3. حديقة الأسرار
+4. أراضي البراكين
+5. ساحة النجوم

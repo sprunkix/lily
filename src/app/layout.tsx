@@ -10,7 +10,21 @@ import Script from 'next/script';
 export const metadata: Metadata = {
   title: 'Sprunki lily - Complete Character Guide and Game Information',
   description: 'Discover Sprunki lily - the enchanting game character. Explore character details, features, forms, gallery, popular YouTube videos, and related game modules.',
-  keywords: 'Sprunki lily, Sprunki lily game, Sprunki lily character, Sprunki lily features, Sprunki lily gameplay'
+  keywords: 'Sprunki lily, Sprunki lily game, Sprunki lily character, Sprunki lily features, Sprunki lily gameplay',
+  alternates: {
+    canonical: "https://sprunkiLily.com/", 
+    languages: {
+      "en": "https://sprunkiLily.com/en/",
+      "ar": "https://sprunkiLily.com/ar/",
+      "es": "https://sprunkiLily.com/es/",
+      "fr": "https://sprunkiLily.com/fr/",
+      "ja": "https://sprunkiLily.com/ja/",
+      "ko": "https://sprunkiLily.com/ko/",
+      "pt": "https://sprunkiLily.com/pt/",
+      "ru": "https://sprunkiLily.com/ru/",
+      "zh": "https://sprunkiLily.com/zh/",
+    }
+  }
 }
 
 export default function RootLayout({

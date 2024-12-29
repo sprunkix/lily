@@ -1,28 +1,30 @@
 ---
 title: Sprunki Retake
-description: Embark on an epic journey with Sprunki in this exciting adventure game. Explore magical worlds, solve puzzles, and collect treasures.
+description:  Retake represents a bold reimagining of the classic musical experience. It's where creativity meets innovation, allowing players to craft unique soundscapes with an enhanced set of tools and features.
 slug: sprunki-retake
-gameUrl: https://game.sprunkix.com/retake
-ogImage: https://games.sprunkix.com/images/sprunki-retake-og.jpg
+gameUrl: https://sprunki.org/sprunki-retake.embed
+ogImage: /images/sprunki-retake.png
 date: 2024-12-28
 position: 1
 keywords:
   - sprunki retake
   - retake game
-  - puzzle game
+  - music game
   - online game
-  - free game
-
+  - creative gameplay
 features:
-  - title: Magical Worlds
-    description: Explore 5 unique and enchanting worlds
+  - title: Enhanced Sound Library
+    description: Explore an expanded collection of premium sounds and beats in Sprunki Retake.
     icon: 🌍
-  - title: Challenging Puzzles
-    description: Solve intricate puzzles that test your wit
+  - title: Advanced Mixing
+    description: Take control with professional-grade mixing tools in Sprunki Retake.
     icon: 🧩
-  - title: Character Upgrades
-    description: Unlock new abilities and power-ups
+  - title: Custom Visuals
+    description: Experience stunning visual effects unique to Sprunki Retake.
     icon: ⭐
+  - title: Special Effects
+    description: Add professional effects to your Sprunki Retake compositions.
+    icon: 💫
 
 videos:
   - title: Gameplay Trailer
@@ -30,10 +32,12 @@ videos:
     thumbnail: https://games.sprunkix.com/images/trailer-thumb.jpg
 
 faqs:
-  - question: How do I play Sprunki Retake?
-    answer: Use arrow keys to move, spacebar to jump, and collect gems to progress through levels.
-  - question: Is Sprunki Retake free to play?
-    answer: Yes, Sprunki Retake is completely free to play in your web browser.
+  - question: What's new in Sprunki Retake?
+    answer: Sprunki Retake introduces enhanced sound quality, new mixing tools, and improved visual effects for an elevated musical experience.
+  - question: Can I import my existing projects into Sprunki Retake?
+    answer: Yes! Sprunki Retake supports importing projects from previous versions while offering new enhancement options.
+  - question: Is Sprunki Retake suitable for beginners?
+    answer: Absolutely! While Sprunki Retake offers advanced features, it maintains an intuitive interface perfect for all skill levels.
 ---
 
 # Game Overview

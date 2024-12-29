@@ -1,27 +1,26 @@
 ---
 title: Sprunki Ketchup 2.0
-description: Embark on an epic journey with Sprunki in this exciting adventure game. Explore magical worlds, solve puzzles, and collect treasures.
+description: The evolution continues with enhanced graphics, new sound mechanics, and deeper gameplay features.
 slug: sprunki-ketchup-2.0
-gameUrl: https://game.sprunkix.com/ketchup-2.0
-ogImage: https://games.sprunkix.com/images/sprunki-ketchup-2.0-og.jpg
+gameUrl: https://game.sprunkix.com/game/sprunki-katchup-2/index.html
+ogImage: /images/games/sprunki-ketchup-2.jpg
 date: 2024-12-28
 position: 1
 keywords:
   - sprunki ketchup 2.0
   - ketchup game
-  - puzzle game
+  - music game
   - online game
-  - free game
-
+  - creative gameplay
 features:
-  - title: Magical Worlds
-    description: Explore 5 unique and enchanting worlds
+  - title: Improved Graphics and Sounds
+    description: Enhanced visuals and more complex sound effects for a richer atmosphere
     icon: 🌍
-  - title: Challenging Puzzles
-    description: Solve intricate puzzles that test your wit
+  - title: Expanded Gameplay
+    description: New levels and challenges provide fresh experiences
     icon: 🧩
-  - title: Character Upgrades
-    description: Unlock new abilities and power-ups
+  - title: Community Platform
+    description: Share your musical creations easily with an expanded community
     icon: ⭐
 
 videos:
@@ -30,10 +29,10 @@ videos:
     thumbnail: https://games.sprunkix.com/images/trailer-thumb.jpg
 
 faqs:
-  - question: How do I play Sprunki Ketchup 2.0?
-    answer: Use arrow keys to move, spacebar to jump, and collect gems to progress through levels.
-  - question: Is Sprunki Ketchup 2.0 free to play?
-    answer: Yes, Sprunki Ketchup 2.0 is completely free to play in your web browser.
+  - question: What's new in 2.0?
+    answer: Enhanced graphics, new sound effects, and additional gameplay mechanics make this version stand out.
+  - question: Is it compatible with previous saves?
+    answer: Players may need to start fresh as saves from the original may not carry over due to significant updates in gameplay mechanics.
 ---
 
 # Game Overview
