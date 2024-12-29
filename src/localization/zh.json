@@ -1,7 +1,22 @@
-{
+{   
+    "nav": {
+        "home": "首页",
+        "games": "游戏",
+        "characters": "角色",
+        "community": "社区"
+    },
     "header": {
         "title": "Sprunki lily - 魔法游戏角色",
         "description": "全面了解和掌握 Sprunki lily 的世界指南"
+    },  
+    "games": {
+        "title": "热门游戏",
+        "relatedGames": "相关游戏",
+        "playNow": "立即游玩",
+        "comments": "评论",
+        "features": "游戏特点",
+        "videos": "游戏视频",
+        "faq": "常见问题"
     },
     "videos": {
         "title": "热门视频",

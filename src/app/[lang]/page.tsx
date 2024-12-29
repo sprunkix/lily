@@ -1,4 +1,3 @@
-
 import Introduction from '@/components/Introduction'
 import CharacterFeatures from '@/components/CharacterFeatures'
 import CharacterForms from '@/components/CharacterForms'
@@ -8,8 +7,7 @@ import GameModules from '@/components/GameModules'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import { defaultLocale, getDictionary, localeNames } from "@/lib/i18n";
-import { HomeContent } from '@/types/content'
-
+import RelatedGames from '@/components/game/RelatedGames'
 export default async function Home({
   params: { lang },
 }: {
@@ -20,9 +18,10 @@ export default async function Home({
   const GAME_URL = 'https://game.sprunkix.com/game/sprunki-extra-characters/index.html';
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-      <Header locale={dict.header} currentLang={langName} />  
+      <Header locale={dict.header} />  
 	    <VideoSection locale={dict.videos} />  
-	    <GameSection gameUrl={GAME_URL} />
+	    <GameSection gameUrl={GAME_URL} locale={dict.games} />
+      <RelatedGames lang={langName} locale={dict.games} />
       <Introduction locale={dict.introduction} />
       <CharacterFeatures locale={dict.features} />
       <CharacterForms locale={dict.forms} />

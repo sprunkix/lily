@@ -1,7 +1,22 @@
 {
+    "nav": {
+        "home": "الرئيسية",
+        "games": "الألعاب",
+        "characters": "الشخصيات",
+        "community": "المجتمع"
+    },
     "header": {
         "title": "Sprunki lily - الشخصية السحرية في اللعبة",
         "description": "دليلك الكامل لفهم وإتقان عالم Sprunki lily"
+    },
+    "games": {
+        "title": "الألعاب الشائعة",
+        "relatedGames": "الألعاب المتعلقة",
+        "playNow": "اللعب الآن",
+        "comments": "التعليقات",
+        "features": "ميزات اللعبة",
+        "videos": "مقاطع الفيديو",
+        "faq": "الأسئلة الشائعة"
     },
     "videos": {
         "title": "مقاطع الفيديو الشائعة",

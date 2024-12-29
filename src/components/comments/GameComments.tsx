@@ -5,14 +5,15 @@ import { useTheme } from 'next-themes';
 
 interface GameCommentsProps {
   gameSlug: string;
+  locale: any;
 }
 
-export default function GameComments({ gameSlug }: GameCommentsProps) {
+export default function GameComments({ gameSlug, locale }: GameCommentsProps) {
   const { theme } = useTheme();
 
   return (
     <section className="bg-white rounded-xl shadow-sm p-8 mb-8 border border-secondary/20">
-      <h2 className="text-3xl font-bold text-text-primary mb-6">Comments</h2>
+      <h2 className="text-3xl font-bold text-text-primary mb-6">{locale.comments}</h2>
       <Giscus
         id="comments"
         repo="sprunkix/sprunkix"

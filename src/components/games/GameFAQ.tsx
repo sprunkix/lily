@@ -3,12 +3,13 @@ interface GameFAQProps {
     question: string;
     answer: string;
   }[];
+  locale: any;
 }
 
-export default function GameFAQ({ faqs }: GameFAQProps) {
+export default function GameFAQ({ faqs, locale }: GameFAQProps) {
   return (
     <section className="bg-white rounded-xl shadow-sm p-8 mb-8 border border-secondary/20">
-      <h2 className="text-3xl font-bold text-text-primary mb-6">Frequently Asked Questions</h2>
+      <h2 className="text-3xl font-bold text-text-primary mb-6">{locale.faq}</h2>
       <div className="space-y-6">
         {faqs.map((faq) => (
           <div key={faq.question} className="border-b border-secondary/20 pb-6 last:border-0">

@@ -2,14 +2,10 @@
 import { useRouter, usePathname } from 'next/navigation';
 import { defaultLocale, localeNames } from "@/lib/i18n";
 
-export default function LanguageDropdown({
-    params: { currentLang },
-  }: {
-    params: { currentLang: string };
-  }) {
+export default function LanguageDropdown() {
   const router = useRouter();
   const pathname = usePathname();
-
+  const currentLang = pathname.split('/')[1] || 'en';
   const handleLanguageChange = (newLang: string) => {
     const pathWithoutLang = pathname.replace(/^\/[a-z]{2}/, '');
     router.push(`/${newLang}${pathWithoutLang}`);

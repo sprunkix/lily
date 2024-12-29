@@ -1,17 +1,13 @@
-'use client'
 
-interface StartButtonProps {
-  onClick: () => void;
-}
-
-export default function StartButton({ onClick }: StartButtonProps) {
+export default function StartButton() {
   return (
-    <div className="w-full h-[600px] rounded-lg bg-accent/20 flex items-center justify-center border border-secondary/20">
+    <div id="gameOverlay" className="absolute inset-0 bg-black/75 flex flex-col items-center justify-center transition-opacity duration-300 z-10">
       <button
-        onClick={onClick}
+        id="playButton"
         className="px-8 py-4 bg-primary text-white rounded-lg font-semibold text-lg hover:bg-secondary transition-colors shadow-md"
       >
-        Start Game
+      <i data-lucide="play" className="w-6 h-6"></i>
+      <span>Play Now</span>
       </button>
     </div>
   );

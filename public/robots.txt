@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sprunkilily.com
+
+# Sitemaps
+Sitemap: https://sprunkilily.com/sitemap.xml
+Sitemap: https://sprunkilily.com/server-sitemap-index.xml

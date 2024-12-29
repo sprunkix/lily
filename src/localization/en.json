@@ -1,7 +1,22 @@
 {
+    "nav": {
+        "home": "Home",
+        "games": "Games",
+        "characters": "Characters",
+        "community": "Community"
+    },
     "header": {
         "title": "Sprunki lily - The Magical Game Character",
         "description": "Your complete guide to understanding and mastering Sprunki lily's world"
+    },
+    "games": {
+        "title": "Popular Games",
+        "relatedGames": "Related Games",
+        "playNow": "Play Now",
+        "comments": "Comments",
+        "features": "Game Features",
+        "videos": "Game Videos",
+        "faq": "Game FAQ"
     },
     "videos": {
         "title": "Popular Videos",

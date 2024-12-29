@@ -1,7 +1,22 @@
 {
+    "nav": {
+        "home": "Inicio",
+        "games": "Juegos",
+        "characters": "Personajes",
+        "community": "Comunidad"
+    },
     "header": {
         "title": "Sprunki lily - El Personaje Mágico del Juego",
         "description": "Tu guía completa para entender y dominar el mundo de Sprunki lily"
+    },  
+    "games": {
+        "title": "Juegos Populares",
+        "relatedGames": "Juegos Relacionados",
+        "playNow": "Jugar Ahora",
+        "comments": "Comentarios",
+        "features": "Características del Juego",
+        "videos": "Vídeos del Juego",
+        "faq": "Preguntas Frecuentes"
     },
     "videos": {
         "title": "Vídeos Populares",

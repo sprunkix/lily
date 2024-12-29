@@ -1,7 +1,22 @@
 {
+    "nav": {
+        "home": "ホーム",
+        "games": "ゲーム",
+        "characters": "キャラクター",
+        "community": "コミュニティ"
+    },
     "header": {
         "title": "Sprunki lily - 魔法のゲームキャラクター",
         "description": "Sprunki lilyの世界を理解し、マスターするための完全ガイド"
+    },
+    "games": {
+        "title": "人気のゲーム",
+        "relatedGames": "関連するゲーム",
+        "playNow": "今すぐ遊ぶ",
+        "comments": "コメント",
+        "features": "ゲームの特徴",
+        "videos": "ゲームのビデオ",
+        "faq": "よくある質問"
     },
     "videos": {
         "title": "人気の動画",

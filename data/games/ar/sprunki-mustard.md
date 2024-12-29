@@ -1,12 +1,14 @@
 ---
-title: Sprunki Adventure
+title: Sprunki Mustard
 description: Embark on an epic journey with Sprunki in this exciting adventure game. Explore magical worlds, solve puzzles, and collect treasures.
-slug: sprunki-adventure
-gameUrl: https://game.sprunkix.com/adventure
-ogImage: https://games.sprunkix.com/images/sprunki-adventure-og.jpg
+slug: sprunki-mustard
+gameUrl: https://game.sprunkix.com/mustard
+ogImage: https://games.sprunkix.com/images/sprunki-mustard-og.jpg
+date: 2024-12-28
+position: 1
 keywords:
-  - sprunki adventure
-  - adventure game
+  - sprunki mustard
+  - mustard game
   - puzzle game
   - online game
   - free game
@@ -28,15 +30,15 @@ videos:
     thumbnail: https://games.sprunkix.com/images/trailer-thumb.jpg
 
 faqs:
-  - question: How do I play Sprunki Adventure?
+  - question: How do I play Sprunki Mustard?
     answer: Use arrow keys to move, spacebar to jump, and collect gems to progress through levels.
-  - question: Is Sprunki Adventure free to play?
-    answer: Yes, Sprunki Adventure is completely free to play in your web browser.
+  - question: Is Sprunki Mustard free to play?
+    answer: Yes, Sprunki Mustard is completely free to play in your web browser.
 ---
 
 # Game Overview
 
-Sprunki Adventure is an exciting platformer that combines puzzle-solving with action gameplay. Players guide Sprunki through various magical worlds, each offering unique challenges and rewards.
+Sprunki Mustard is an exciting platformer that combines puzzle-solving with action gameplay. Players guide Sprunki through various magical worlds, each offering unique challenges and rewards.
 
 ## Gameplay Mechanics
 
@@ -49,7 +51,7 @@ The game features intuitive controls and progressive difficulty, making it acces
 
 ## World Design
 
-Each world in Sprunki Adventure has its own unique theme and challenges:
+Each world in Sprunki Mustard has its own unique theme and challenges:
 
 1. Crystal Caverns
 2. Cloud Kingdom
