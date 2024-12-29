@@ -8,6 +8,19 @@ import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import { defaultLocale, getDictionary, localeNames } from "@/lib/i18n";
 import RelatedGames from '@/components/game/RelatedGames'
+
+export async function generateMetadata({
+  params: { lang },
+}: {
+  params: { lang: string };
+}) {
+  const langName = lang || defaultLocale;
+  const postData = await getDictionary(langName);
+  return {
+    title: `${postData.header.title}`,
+    description: postData.header.description || `Read about ${postData.header.title} on Sprunki Lily`,
+  };
+}
 export default async function Home({
   params: { lang },
 }: {

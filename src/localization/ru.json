@@ -10,7 +10,8 @@
         "description": "Полное руководство по пониманию и освоению мира Sprunki lily"
     },  
     "games": {
-        "title": "Популярные игры",
+        "title": "Популярные игры", 
+        "description": "Более популярные игры Sprunki Lily",
         "relatedGames": "Связанные игры",
         "playNow": "Играть сейчас",
         "comments": "Комментарии",

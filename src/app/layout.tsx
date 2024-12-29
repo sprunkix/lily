@@ -23,7 +23,6 @@ export default function RootLayout({
       <head>
         <GoogleAnalytics measurementId={GA_MEASUREMENT_ID} />
 		    <meta name="google-adsense-account" content="ca-pub-0831789447587581"></meta>
-        
       </head>
       <body className="bg-background"> 
         <Navigation /> 

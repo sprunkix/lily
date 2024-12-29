@@ -10,7 +10,8 @@
         "description": "全面了解和掌握 Sprunki lily 的世界指南"
     },  
     "games": {
-        "title": "热门游戏",
+        "title": "热门游戏",    
+        "description": "更多 Sprunki Lily 游戏",
         "relatedGames": "相关游戏",
         "playNow": "立即游玩",
         "comments": "评论",

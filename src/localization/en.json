@@ -9,8 +9,9 @@
         "title": "Sprunki lily - The Magical Game Character",
         "description": "Your complete guide to understanding and mastering Sprunki lily's world"
     },
-    "games": {
+    "games": {  
         "title": "Popular Games",
+        "description": "More Sprunki Games on Sprunki Lily",
         "relatedGames": "Related Games",
         "playNow": "Play Now",
         "comments": "Comments",

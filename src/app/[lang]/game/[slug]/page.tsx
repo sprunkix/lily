@@ -15,15 +15,15 @@ interface GamePageProps {
   };
 }
 
-
 export async function generateMetadata({ params }: GamePageProps): Promise<Metadata> {
+  const dict = await getDictionary(params.lang);
   const game = await getGameData(params.lang, params.slug);
   return {
-    title: `${game.title} -  Sprunki Games`,
+    title: `${game.title} - ${dict.header.title}`,
     description: game.description,
     keywords: game.keywords,
     openGraph: {
-      title: `${game.title} - Sprunki Games`,
+      title: `${game.title} - ${dict.header.title}`,
       description: game.description,
       images: [game.ogImage],
     }

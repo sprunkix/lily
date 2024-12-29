@@ -10,7 +10,8 @@
         "description": "Sprunki lilyの世界を理解し、マスターするための完全ガイド"
     },
     "games": {
-        "title": "人気のゲーム",
+        "title": "人気のゲーム",    
+        "description": "Sprunki Lilyの人気ゲーム",
         "relatedGames": "関連するゲーム",
         "playNow": "今すぐ遊ぶ",
         "comments": "コメント",

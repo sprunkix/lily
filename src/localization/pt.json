@@ -10,7 +10,8 @@
         "description": "Seu guia completo para entender e dominar o mundo de Sprunki lily"
     },
     "games": {
-        "title": "Jogos Populares",
+        "title": "Jogos Populares", 
+        "description": "Mais Jogos de Sprunki Lily",
         "relatedGames": "Jogos Relacionados",
         "playNow": "Jogar Agora",
         "comments": "Comentários",

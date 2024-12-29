@@ -4,6 +4,20 @@ import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import { defaultLocale, getDictionary, localeNames } from "@/lib/i18n";
 import {getSortedGamesData} from '@/lib/game'
+
+export async function generateMetadata({
+  params: { lang },
+}: {
+  params: { lang: string };
+}) {
+  const langName = lang || defaultLocale;
+  const dict = await getDictionary(langName);
+  return {
+    title: `${dict.games.title} - ${dict.header.title}`,
+    description: dict.games.description || `Read about ${dict.games.title} on Sprunki Lily`,
+  };
+}
+
 export default async function Home({
   params: { lang },
 }: {
