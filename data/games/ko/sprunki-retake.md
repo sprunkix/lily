@@ -28,7 +28,7 @@ features:
 
 videos:
   - title: Sprunki Retake 게임플레이
-    url: https://www.youtube.com/embed/2Hi6ZOsYmCc?si=3vm1ioHKokjLm71s
+    url: https://www.youtube.com/embed/S6qFoXRj7BU?si=9Uc2NmPQrXMG3cU6
     thumbnail: https://img.youtube.com/vi/2Hi6ZOsYmCc/hqdefault.jpg
 
 faqs:

@@ -14,8 +14,8 @@ export default async function Navigation() {
           <div className="flex items-center space-x-4">
             <NavLink href={`/${currenstLang}`}>{dict.nav.home}</NavLink>
             <NavLink href={`/${currenstLang}/game`}>{dict.nav.games}</NavLink>
-            <NavLink href={`/${currenstLang}/characters`}>{dict.nav.characters}</NavLink>
-            <NavLink href={`/${currenstLang}/community`}>{dict.nav.community}</NavLink>
+            {/* <NavLink href={`/${currenstLang}/characters`}>{dict.nav.characters}</NavLink> */}
+            {/* <NavLink href={`/${currenstLang}/community`}>{dict.nav.community}</NavLink> */}
           </div>
           <LanguageDropdown/>
         </div>

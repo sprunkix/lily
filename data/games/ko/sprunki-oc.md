@@ -2,8 +2,8 @@
 title: Sprunki OC
 description: Sprunki OC는 창의성과 게임플레이를 결합한 독특한 음악적 모험입니다. Sprunki의 원래 캐릭터(OC)를 탐험하고 창의성을 발휘하세요.
 slug: sprunki-oc
-gameUrl: https://www.najox.com/zh/game/sprunki_multiverse
-ogImage: /images/games/sprunki-oc.jpg
+gameUrl: https://game.sprunkix.com/game/sprunki-whit-oc/index.html
+ogImage: /images/sprunki-oc.jpg
 date: 2024-12-29
 keywords:
   - sprunki oc
@@ -23,7 +23,7 @@ features:
     icon: 🤝
 videos:
   - title: Sprunki OC 소개
-    url: https://www.youtube.com/watch?v=kLjmdDa2FcE
+    url: https://www.youtube.com/embed/kLjmdDa2FcE?si=psfyaygQFc0F-jJr
     thumbnail: https://img.youtube.com/vi/kLjmdDa2FcE/hqdefault.jpg
 
 faqs:

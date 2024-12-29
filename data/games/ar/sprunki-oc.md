@@ -2,12 +2,12 @@
 title: Sprunki OC
 description: استكشف عالمًا متنوعًا من أبرز الشخصيات الأصلية لـ Sprunki، حيث يلتقي الإبداع مع اللعب في مغامرة موسيقية خاصة.
 slug: sprunki-oc
-gameUrl: https://www.najox.com/zh/game/sprunki_multiverse
-ogImage: /images/games/sprunki-oc.jpg
+gameUrl: https://game.sprunkix.com/game/sprunki-whit-oc/index.html
+ogImage: /images/sprunki-oc.jpg
 date: 2024-12-29
 keywords:
   - sprunki oc
-  - original characters
+  - الشخصيات الأصلية
   - موسيقى
   - لعبة عبر الإنترنت
   - لعبة إبداعية
@@ -23,7 +23,7 @@ features:
     icon: 🤝
 videos:
   - title: مقطع لعبة
-    url: https://www.youtube.com/watch?v=kLjmdDa2FcE
+    url: https://www.youtube.com/embed/kLjmdDa2FcE?si=psfyaygQFc0F-jJr
     thumbnail: https://img.youtube.com/vi/kLjmdDa2FcE/hqdefault.jpg
 
 faqs:

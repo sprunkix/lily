@@ -28,7 +28,7 @@ features:
 
 videos:
   - title: Sprunki Phase 10 게임플레이 영상
-    url: https://youtube.com/embed/xxxx
+    url: https://www.youtube.com/embed/A1wsNJwJ2gM?si=EezSMGg0AiOZrfYD
     thumbnail: https://games.sprunkix.com/images/trailer-thumb.jpg
 
 faqs:

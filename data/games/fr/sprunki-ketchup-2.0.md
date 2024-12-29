@@ -3,7 +3,7 @@ title: Sprunki Ketchup 2.0
 description: La evolución continúa con gráficos mejorados, nuevas mecánicas de sonido y características de juego más profundas.
 slug: sprunki-ketchup-2.0
 gameUrl: https://game.sprunkix.com/game/sprunki-katchup-2/index.html
-ogImage: /images/games/sprunki-ketchup-2.jpg
+ogImage: /images/sprunki-ketchup-2.jpg
 date: 2024-12-28
 position: 1
 keywords:
@@ -25,7 +25,7 @@ features:
 
 videos:
   - title: Gameplay Trailer
-    url: https://youtube.com/embed/xxxx
+    url: https://www.youtube.com/embed/kuBbHV9kfRI?si=OzxexojXL5Gkze4d
     thumbnail: https://games.sprunkix.com/images/trailer-thumb.jpg
 
 faqs:

@@ -28,7 +28,7 @@ features:
 
 videos:
   - title: Gameplay Trailer
-    url: https://youtube.com/embed/xxxx
+    url: https://www.youtube.com/embed/S6qFoXRj7BU?si=9Uc2NmPQrXMG3cU6
     thumbnail: https://games.sprunkix.com/images/trailer-thumb.jpg
 
 faqs:

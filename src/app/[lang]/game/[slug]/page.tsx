@@ -8,6 +8,7 @@ import RelatedGames from '@/components/game/RelatedGames';
 import GameComments from '@/components/comments/GameComments';
 import { getGameData } from '@/lib/game';
 import { getDictionary } from '@/lib/i18n';
+import Footer from '@/components/Footer';
 interface GamePageProps {
   params: {
     lang: string;
@@ -50,7 +51,7 @@ export default async function GamePage({ params }: GamePageProps) {
       <GameFeatures locale={dict.games} features={game.features} />
       <GameVideos locale={dict.games} videos={game.videos} />
       <GameFAQ locale={dict.games} faqs={game.faqs} />
-      
+      <Footer locale={dict.footer} currentLang={params.lang} />
     </div>
   );
      

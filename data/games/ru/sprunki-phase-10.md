@@ -28,7 +28,7 @@ features:
 
 videos:
   - title: Видео игры
-    url: https://youtube.com/embed/xxxx
+    url: https://www.youtube.com/embed/A1wsNJwJ2gM?si=EezSMGg0AiOZrfYD
     thumbnail: https://games.sprunkix.com/images/trailer-thumb.jpg
 
 faqs:
