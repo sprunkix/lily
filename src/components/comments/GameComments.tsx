@@ -27,7 +27,7 @@ export default function GameComments({ gameSlug, locale }: GameCommentsProps) {
         inputPosition="top"
         theme="preferred_color_scheme"
         lang="en"
-        loading="lazy"
+        crossorigin="anonymous"
         strict="0"
       />
     </section>
