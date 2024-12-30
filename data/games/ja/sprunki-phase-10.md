@@ -2,7 +2,7 @@
 title: Sprunki Phase 10 - ユニークな音楽の旅
 description: Sprunki Phase 10で、ユニークな音楽を作り、マスターしよう
 slug: sprunki-phase-10
-gameUrl: https://wowtbc.net/sprunkin/phase10/index.html
+gameUrl: https://game.sprunkix.com/game/sprunki-phase-10/index.html
 ogImage: /images/sprunki-phase-10.jpg
 date: 2024-12-28
 position: 1

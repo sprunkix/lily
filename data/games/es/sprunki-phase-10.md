@@ -2,7 +2,7 @@
 title: Sprunki Phase 10 - La Gran Aventura Musical
 description: Crea, Mezcla y Domina tus Canciones en Sprunki Phase 10
 slug: sprunki-phase-10
-gameUrl: https://wowtbc.net/sprunkin/phase10/index.html
+gameUrl: https://game.sprunkix.com/game/sprunki-phase-10/index.html
 ogImage: /images/sprunki-phase-10.jpg
 date: 2024-12-28
 position: 1

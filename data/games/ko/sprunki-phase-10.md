@@ -2,7 +2,7 @@
 title: Sprunki Phase 10 - 최고의 음악적 여행
 description: Sprunki Phase 10에서 비트를 만들고 섞고 마스터하세요
 slug: sprunki-phase-10
-gameUrl: https://wowtbc.net/sprunkin/phase10/index.html
+gameUrl: https://game.sprunkix.com/game/sprunki-phase-10/index.html
 ogImage: /images/sprunki-phase-10.jpg
 date: 2024-12-28
 position: 1

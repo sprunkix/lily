@@ -2,7 +2,7 @@
 title: Sprunki Phase 10 - 终极音乐之旅
 description: 创建、混合和掌握你的节奏在 Sprunki Phase 10
 slug: sprunki-phase-10
-gameUrl: https://wowtbc.net/sprunkin/phase10/index.html
+gameUrl: https://game.sprunkix.com/game/sprunki-phase-10/index.html
 ogImage: /images/sprunki-phase-10.jpg
 date: 2024-12-28
 position: 1
