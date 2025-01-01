@@ -5,6 +5,7 @@ const GA_MEASUREMENT_ID = 'G-J81W601FNV' // Replace with your actual GA4 measure
 import { defaultLocale } from "@/lib/i18n";
 import Navigation from '@/components/navigation/Navigation'
 import Script from 'next/script';
+import { LinkedinIcon } from 'react-share';
 
 
 export const metadata: Metadata = {
@@ -35,8 +36,12 @@ export default function RootLayout({
   return (
     <html lang={ defaultLocale}>
       <head>
-        <GoogleAnalytics measurementId={GA_MEASUREMENT_ID} />
-		    <meta name="google-adsense-account" content="ca-pub-0831789447587581"></meta>
+      <GoogleAnalytics measurementId={GA_MEASUREMENT_ID} />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
+      <link rel="manifest" href="/site.webmanifest" />
+		  <meta name="google-adsense-account" content="ca-pub-0831789447587581"></meta>
       </head>
       <body className="bg-background"> 
         <Navigation /> 
