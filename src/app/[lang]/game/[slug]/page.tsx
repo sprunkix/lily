@@ -23,10 +23,25 @@ export async function generateMetadata({ params }: GamePageProps): Promise<Metad
     title: `${game.title} - ${dict.header.title}`,
     description: game.description,
     keywords: game.keywords,
+    alternates: {
+      canonical: `https://sprunkiLily.com/${params.lang}/game/${params.slug}/`, 
+      languages: {
+        "en": `https://sprunkiLily.com/en/game/${params.slug}/`,
+        "ar": `https://sprunkiLily.com/ar/game/${params.slug}/`,
+        "es": `https://sprunkiLily.com/es/game/${params.slug}/`,
+        "fr": `https://sprunkiLily.com/fr/game/${params.slug}/`,
+        "ja": `https://sprunkiLily.com/ja/game/${params.slug}/`,
+        "ko": `https://sprunkiLily.com/ko/game/${params.slug}/`,
+        "pt": `https://sprunkiLily.com/pt/game/${params.slug}/`, 
+        "ru": `https://sprunkiLily.com/ru/game/${params.slug}/`,
+        "zh": `https://sprunkiLily.com/zh/game/${params.slug}/`,
+      }
+    },
     openGraph: {
       title: `${game.title} - ${dict.header.title}`,
       description: game.description,
       images: [game.ogImage],
+      
     }
   };
 }

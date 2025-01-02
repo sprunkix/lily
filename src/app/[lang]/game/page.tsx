@@ -15,6 +15,20 @@ export async function generateMetadata({
   return {
     title: `${dict.games.title} - ${dict.header.title}`,
     description: dict.games.description || `Read about ${dict.games.title} on Sprunki Lily`,
+    alternates: {
+      canonical: `https://sprunkiLily.com/${langName}/game/`, 
+      languages: {
+        "en": `https://sprunkiLily.com/en/game/`,
+        "ar": `https://sprunkiLily.com/ar/game/`,
+        "es": `https://sprunkiLily.com/es/game/`,
+        "fr": `https://sprunkiLily.com/fr/game/`,
+        "ja": `https://sprunkiLily.com/ja/game/`,
+        "ko": `https://sprunkiLily.com/ko/game/`,
+        "pt": `https://sprunkiLily.com/pt/game/`, 
+        "ru": `https://sprunkiLily.com/ru/game/`,
+        "zh": `https://sprunkiLily.com/zh/game/`,
+      }
+    }
   };
 }
 
