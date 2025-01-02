@@ -20,17 +20,17 @@ export async function generateMetadata({
     title: `${postData.header.title}`,
     description: postData.header.description || `Read about ${postData.header.title} on Sprunki Lily`,
     alternates: {
-      canonical: `https://sprunkiLily.com/${langName}/`, 
+      canonical: `https://sprunkiLily.com/${langName}`, 
       languages: {
-        "en": `https://sprunkiLily.com/en/`,
-        "ar": `https://sprunkiLily.com/ar/`,
-        "es": `https://sprunkiLily.com/es/`,
-        "fr": `https://sprunkiLily.com/fr/`,
-        "ja": `https://sprunkiLily.com/ja/`,
-        "ko": `https://sprunkiLily.com/ko/`,
-        "pt": `https://sprunkiLily.com/pt/`, 
-        "ru": `https://sprunkiLily.com/ru/`,
-        "zh": `https://sprunkiLily.com/zh/`,
+        "en": `https://sprunkiLily.com/en`,
+        "ar": `https://sprunkiLily.com/ar`,
+        "es": `https://sprunkiLily.com/es`,
+        "fr": `https://sprunkiLily.com/fr`,
+        "ja": `https://sprunkiLily.com/ja`,
+        "ko": `https://sprunkiLily.com/ko`,
+        "pt": `https://sprunkiLily.com/pt`, 
+        "ru": `https://sprunkiLily.com/ru`,
+        "zh": `https://sprunkiLily.com/zh`,
       }
     }
   };
