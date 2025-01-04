@@ -38,7 +38,7 @@ export async function generateMetadata({ params }: GamePageProps): Promise<Metad
       }
     },
     openGraph: {
-      title: `${game.title} - ${dict.header.title}`,
+      title: `${game.title}`,
       description: game.description,
       images: [game.ogImage],
       
