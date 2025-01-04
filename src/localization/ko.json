@@ -1,9 +1,9 @@
 {
     "nav": {
         "home": "홈",
-        "games": "게임",
-        "characters": "캐릭터",
-        "community": "커뮤니티"
+        "games": "인기 게임",
+        "characters": "Sprunki 캐릭터",
+        "community": "Sprunki 커뮤니티"
     },
     "header": {
         "title": "Sprunki lily - 마법의 게임 캐릭터",

@@ -1,9 +1,9 @@
 {   
     "nav": {
         "home": "首页",
-        "games": "游戏",
-        "characters": "角色",
-        "community": "社区"
+        "games": "Sprunki 热门游戏",
+        "characters": "Sprunki 角色",
+        "community": "Sprunki 社区"
     },
     "header": {
         "title": "Sprunki lily - 魔法游戏角色",
