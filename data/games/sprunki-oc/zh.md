@@ -2,7 +2,6 @@
 title: Sprunki OC
 description: 探索 Sprunki 原创角色 (OC) 的丰富多彩世界，在这里创意与游戏玩法相结合，创造独特的音乐冒险。
 keywords:
-keywords:
   - sprunki oc
   - original characters
   - music game

@@ -55,8 +55,9 @@ export async function getGameData(lang, slug) {
      },
      content: contentResult.content
    }
-   console.log(matterResult)
-   console.log(mergedResult)
+   //console.log(contentFile)
+   //console.log(matterResult)
+   //console.log(mergedResult)
   // Use remark to convert markdown into HTML string
   const processedContent = await remark()
     .use(html)
