@@ -59,7 +59,7 @@ export default async function GamePage({ params }: GamePageProps) {
         title={game.title}
         description={game.description}
       />
-      <GameComments locale={dict.games} gameSlug={params.slug} />
+      <GameComments locale={dict.games} lang={params.lang} gameSlug={params.slug} />
       <RelatedGames locale={dict.games} lang={params.lang} />
       <GameFeatures locale={dict.games} features={game.features} />
       <GameVideos locale={dict.games} videos={game.videosUrl} />

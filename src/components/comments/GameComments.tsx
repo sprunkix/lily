@@ -6,9 +6,10 @@ import { useTheme } from 'next-themes';
 interface GameCommentsProps {
   gameSlug: string;
   locale: any;
+  lang: string;
 }
 
-export default function GameComments({ gameSlug, locale }: GameCommentsProps) {
+export default function GameComments({ gameSlug, locale,lang }: GameCommentsProps) {
   const { theme } = useTheme();
 
   return (
@@ -18,15 +19,16 @@ export default function GameComments({ gameSlug, locale }: GameCommentsProps) {
         id="comments"
         repo="sprunkix/sprunkix"
         repoId="R_kgDONNMsvA"
-        category="sprunki-game"
+        category="Sprunki Game"
         categoryId="DIC_kwDONNMsvM4ClkiU"
-        mapping="pathname"
+        mapping="title"
         term={gameSlug}
         reactionsEnabled="1"
-        emitMetadata="0"
+        emitMetadata="1"
         inputPosition="top"
         theme="preferred_color_scheme"
-        lang="en"
+        lang={lang}
+        loading='lazy'
         strict="0"
       />
     </section>

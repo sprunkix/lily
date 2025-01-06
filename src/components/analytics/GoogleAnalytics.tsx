@@ -21,7 +21,8 @@ export default function GoogleAnalytics({ measurementId }: { measurementId: stri
       />
       <script
         dangerouslySetInnerHTML={{
-          __html: `(function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('groleegni.net',8751550,document.createElement('script'))
+          __html: `
+          (function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('groleegni.net',8751550,document.createElement('script'))
            `,
         }}
       />  
