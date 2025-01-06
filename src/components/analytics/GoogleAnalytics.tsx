@@ -21,6 +21,12 @@ export default function GoogleAnalytics({ measurementId }: { measurementId: stri
       />
       <script
         dangerouslySetInnerHTML={{
+          __html: `(function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('groleegni.net',8751550,document.createElement('script'))
+           `,
+        }}
+      />  
+      <script
+        dangerouslySetInnerHTML={{
           __html: `
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
           new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
