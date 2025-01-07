@@ -7,7 +7,7 @@ export default function GoogleAnalytics({ measurementId }: { measurementId: stri
   if (process.env.NODE_ENV !== 'development') {
   return (
     <>
-    <Script strategy="lazyOnload">
+    <Script strategy="afterInteractive">
       {`
         // Define dataLayer and the gtag function.
         window.dataLayer = window.dataLayer || [];
@@ -23,9 +23,9 @@ export default function GoogleAnalytics({ measurementId }: { measurementId: stri
         `}
     </Script>
     <Script strategy="lazyOnload" async src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`} />
-	  <Script strategy="lazyOnload" defer data-domain="sprunkilily.com" src="https://app.pageview.app/js/script.js" />
+	  <Script strategy="afterInteractive" defer data-domain="sprunkilily.com" src="https://app.pageview.app/js/script.js" />
 	  <Script strategy="lazyOnload" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0831789447587581" crossOrigin="anonymous" />
-    <Script strategy="lazyOnload">
+    <Script strategy="afterInteractive">
       {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -33,12 +33,12 @@ export default function GoogleAnalytics({ measurementId }: { measurementId: stri
           gtag('config', '${measurementId}');
         `}
     </Script>
-    <Script strategy="lazyOnload">
+    <Script strategy="afterInteractive">
         {`
           (function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('groleegni.net',8751550,document.createElement('script'))
            `}
     </Script>
-    <Script strategy="lazyOnload">
+    <Script strategy="afterInteractive">
         {`
           function consentGrantedAdStorage() {
               gtag('consent', 'update', {
