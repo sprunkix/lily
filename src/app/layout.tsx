@@ -44,10 +44,6 @@ export default function RootLayout({
 		  <meta name="google-adsense-account" content="ca-pub-0831789447587581"></meta>
       </head>
       <body className="bg-background"> 
-      <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PCWJS48F" 
-        height="0" width="0" style={{display: 'none', visibility: 'hidden'}}></iframe>
-        </noscript>
         <Navigation /> 
         <main className="pt-16">
           {children}

@@ -1,42 +1,54 @@
 'use client'
 
+import Script from "next/script"
+
 export default function GoogleAnalytics({ measurementId }: { measurementId: string }) {
+  if (process.env.NODE_ENV !== 'development') {
   return (
     <>
-      <script
-        async
-        src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`}
-      />
-	  <script defer data-domain="sprunkilily.com" src="https://app.pageview.app/js/script.js" />
-	  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0831789447587581" crossOrigin="anonymous" />
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${measurementId}');
-          `,
-        }}
-      />
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
+    <Script strategy="lazyOnload">
+      {`
+        // Define dataLayer and the gtag function.
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        // Set default consent to 'denied' as a placeholder
+        // Determine actual values based on your own requirements
+        gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'analytics_storage': 'denied'
+        });
+        `}
+    </Script>
+    <Script strategy="lazyOnload" async src={`https://www.googletagmanager.com/gtag/js?id=${measurementId}`} />
+	  <Script strategy="lazyOnload" defer data-domain="sprunkilily.com" src="https://app.pageview.app/js/script.js" />
+	  <Script strategy="lazyOnload" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0831789447587581" crossOrigin="anonymous" />
+    <Script strategy="lazyOnload">
+      {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', '${measurementId}');
+        `}
+    </Script>
+    <Script strategy="lazyOnload">
+        {`
           (function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('groleegni.net',8751550,document.createElement('script'))
-           `,
-        }}
-      />  
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GTM-PCWJS48F');
-          `,
-        }}
-      />
+           `}
+    </Script>
+    <Script strategy="lazyOnload">
+        {`
+          function consentGrantedAdStorage() {
+              gtag('consent', 'update', {
+                'ad_storage': 'granted'
+              });
+            }
+          `}
+      </Script>
     </>
   )
+  } else {
+    return null
+  }
 }
