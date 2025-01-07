@@ -3,6 +3,7 @@
 import Script from "next/script"
 
 export default function GoogleAnalytics({ measurementId }: { measurementId: string }) {
+  console.log(process.env.NODE_ENV);
   if (process.env.NODE_ENV !== 'development') {
   return (
     <>
