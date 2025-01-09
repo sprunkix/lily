@@ -27,7 +27,7 @@ export default function GameComments({ gameSlug, locale,lang }: GameCommentsProp
         emitMetadata="1"
         inputPosition="top"
         theme="preferred_color_scheme"
-        lang={lang}
+        lang='en'
         loading='lazy'
         strict="0"
       />
