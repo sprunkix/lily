@@ -6,6 +6,7 @@ import { defaultLocale } from "@/lib/i18n";
 import Navigation from '@/components/navigation/Navigation'
 import Script from 'next/script';
 import { LinkedinIcon } from 'react-share';
+import AdBlockDetector from '@/components/adblock/AdBlockDetector'
 
 
 export const metadata: Metadata = {
@@ -45,6 +46,7 @@ export default function RootLayout({
       </head>
       <body className="bg-background"> 
         <Navigation /> 
+        <AdBlockDetector />
         <main className="pt-16">
           {children}
         </main>

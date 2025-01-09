@@ -115,5 +115,10 @@
     "footer": {
         "copyright": "Sitio Oficial de Fans de Sprunki lily. Todos los derechos reservados.",
         "followUs": "Para las últimas actualizaciones, síguenos en redes sociales y únete a nuestros foros comunitarios."
-    }       
+    },
+    "adblock": {
+        "title": "Bloqueador de anuncios detectado",
+        "message": "Por favor, desactive su bloqueador de anuncios o agregue nuestro sitio a la lista blanca para continuar",
+        "button": "He desactivado el bloqueador de anuncios"
+    }
 }    
