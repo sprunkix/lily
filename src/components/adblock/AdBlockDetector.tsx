@@ -11,7 +11,42 @@ export default function AdBlockDetector() {
   const params = useParams();
   const lang = (params?.lang as string) || defaultLocale;
 
+  // 检查是否是爬虫
+  const isCrawler = () => {
+    if (typeof window === 'undefined') return true; // SSR 环境下直接返回 true
+    
+    const crawlers = [
+      'bot',
+      'spider',
+      'crawler',
+      'googlebot',
+      'bingbot',
+      'baiduspider',
+      'yandexbot',
+      'slurp',
+      'duckduckbot',
+      'facebookexternalhit',
+      'twitterbot',
+      'rogerbot',
+      'linkedinbot',
+      'embedly',
+      'quora link preview',
+      'showyoubot',
+      'outbrain',
+      'pinterest',
+      'slackbot',
+      'vkShare',
+      'W3C_Validator'
+    ];
+
+    const userAgent = navigator.userAgent.toLowerCase();
+    return crawlers.some(crawler => userAgent.includes(crawler));
+  };
+
   useEffect(() => {
+    // 如果是爬虫，不加载字典和不检测广告拦截器
+    if (isCrawler()) return;
+
     const loadDictionary = async () => {
       const dict = await getDictionary(lang);
       setDictionary(dict);
@@ -20,6 +55,9 @@ export default function AdBlockDetector() {
   }, [lang]);
 
   useEffect(() => {
+    // 如果是爬虫，不执行检测
+    if (isCrawler()) return;
+
     const detectAdBlock = async () => {
       try {
         // 创建一个 Promise 来处理广告脚本加载
@@ -73,14 +111,11 @@ export default function AdBlockDetector() {
 
       } catch (error) {
         console.log('AdBlock detection failed:', error);
-        setIsAdBlockDetected(true); // 发生任何错误都认为是被屏蔽
+        setIsAdBlockDetected(true);
       }
     };
 
-    // 初始检测
     detectAdBlock();
-
-    // 定期检查
     const checkInterval = setInterval(detectAdBlock, 10000);
 
     return () => {
@@ -147,7 +182,8 @@ export default function AdBlockDetector() {
     }
   };
  
-  if (!isAdBlockDetected || !dictionary) return null;
+  // 如果是爬虫或没有检测到广告拦截器或字典未加载，则不显示提示框
+  if (isCrawler() || !isAdBlockDetected || !dictionary) return null;
 
   return (
     <div className={styles.overlay}>
