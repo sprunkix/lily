@@ -7,8 +7,8 @@ export default function CharacterForms({
 }) {
 
   return (
-    <section id="forms" className="bg-white rounded-xl shadow-sm p-8 mb-8 border border-secondary/20">
-      <h2 className="text-3xl font-bold text-text-primary mb-6">{locale.title}</h2>
+    <section id="forms" className="bg-white rounded-xl shadow-sm p-8 mb-4 border border-secondary/20">
+      <h2 className="text-3xl font-bold text-text-primary mb-4">{locale.title}</h2>
       <p className="text-text-secondary mb-6">
         {locale.description}
       </p>

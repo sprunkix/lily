@@ -9,15 +9,15 @@ interface RelatedGamesProps {
 export default async function RelatedGames({ lang, locale }: RelatedGamesProps) {
 	const relatedGames = await getSortedGamesData(lang).slice(0, 4);
   return (
-    <section id="game" className="bg-white rounded-xl shadow-sm p-8 mb-8 border border-secondary/20">
-      <h2 className="text-3xl font-bold text-text-primary mb-6">{locale.relatedGames}</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+    <section id="game" className="bg-white rounded-xl shadow-sm p-8 mb-4 border border-secondary/20">
+      <h2 className="text-3xl font-bold text-text-primary mb-4">{locale.relatedGames}</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
         {relatedGames.map((game) => (
           <RelatedGame
             key={game.title}
             title={game.title}
             imageUrl={game.ogImage}
-			gameUrl={game.gameUrl}
+			      gameUrl={game.gameUrl}
           />
         ))}
       </div>

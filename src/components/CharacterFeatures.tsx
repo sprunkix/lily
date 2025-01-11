@@ -6,8 +6,8 @@ export default function CharacterFeatures({
     locale: any;
   }) {
   return (
-    <section id="character-features" className="bg-white rounded-xl shadow-sm p-8 mb-8 border border-secondary/20">
-      <h2 className="text-3xl font-bold text-text-primary mb-6">{locale.title}</h2>
+    <section id="character-features" className="bg-white rounded-xl shadow-sm p-8 mb-4 border border-secondary/20">
+      <h2 className="text-3xl font-bold text-text-primary mb-4">{locale.title}</h2>
       <div className="grid md:grid-cols-2 gap-8">
         <div>
           <h3 className="text-2xl font-semibold text-text-primary mb-4">{locale.abilitiesTitle}</h3>

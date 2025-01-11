@@ -9,8 +9,8 @@ interface GameFeatureProps {
 
 export default function GameFeatures({ features, locale }: GameFeatureProps) {
   return (
-    <section className="bg-white rounded-xl shadow-sm p-8 mb-8 border border-secondary/20">
-      <h2 className="text-3xl font-bold text-text-primary mb-6">{locale.features}</h2>
+    <section className="bg-white rounded-xl shadow-sm p-8 mb-4 border border-secondary/20">
+      <h2 className="text-3xl font-bold text-text-primary mb-4">{locale.features}</h2>
       <div className="grid md:grid-cols-3 gap-6">
         {features.map((feature) => (
           <div key={feature.title} className="p-6 bg-accent/10 rounded-lg">

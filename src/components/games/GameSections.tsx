@@ -11,8 +11,8 @@ interface GameSectionsProps {
   
   export default function GameSections({ locale, games }: GameSectionsProps) {
     return (
-      <section className="bg-white rounded-xl shadow-sm p-8 mb-8 border border-secondary/20">
-        <h2 className="text-3xl font-bold text-text-primary mb-6">{locale.title}</h2>
+      <section className="bg-white rounded-xl shadow-sm p-8 mb-4 border border-secondary/20">
+        <h2 className="text-3xl font-bold text-text-primary mb-4">{locale.title}</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
           {games.map((game) => (
            <a 

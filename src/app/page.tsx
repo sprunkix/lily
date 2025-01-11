@@ -15,9 +15,9 @@ export default async function Home() {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8"> 
       <Header locale={dict.header} />  
-	    <VideoSection locale={dict.videos} />  
 	    <GameSection gameUrl={GAME_URL} locale={dict.games} />
       <RelatedGames lang={langName} locale={dict.games} />
+      <VideoSection locale={dict.videos} /> 
       <Introduction locale={dict.introduction} />
       <CharacterFeatures locale={dict.features} />
       <CharacterForms locale={dict.forms} />
