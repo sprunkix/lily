@@ -17,11 +17,6 @@ export default function GamePlayer({ gameUrl, title, description,ogImage, locale
 
   return (
     <section className="bg-white rounded-xl shadow-sm p-8 mb-8 border border-secondary/20">
-      <img 
-          src={ogImage} 
-          alt={title}
-          className="w-full h-full object-cover"
-        />
       <h2 className="text-3xl font-bold text-text-primary mb-6">{locale.playNow}</h2>
       <div className="relative w-full aspect-video bg-black rounded-lg overflow-hidden mb-12">
         <StartButton />
