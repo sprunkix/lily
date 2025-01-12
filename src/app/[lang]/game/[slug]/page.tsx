@@ -18,8 +18,9 @@ interface GamePageProps {
 
 export async function generateMetadata({ params }: GamePageProps): Promise<Metadata> {
   const game = await getGameData(params.lang, params.slug);
+  const dict = await getDictionary(params.lang);
   return {
-    title: `${game.title}`,
+    title: `${game.title} - ${dict.nav.games}`,
     description: game.description,
     keywords: game.keywords,
     alternates: {

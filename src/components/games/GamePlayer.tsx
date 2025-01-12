@@ -1,4 +1,4 @@
-
+'use client';
 import GameFrame from '../game/GameFrame';
 import StartButton from '../game/StartButton';
 import ShareButtons from '../share/ShareButtons';
@@ -14,6 +14,7 @@ interface GamePlayerProps {
 export default function GamePlayer({ gameUrl, title, description,ogImage, locale }: GamePlayerProps) {
 
   const shareUrl = typeof window !== 'undefined' ? window.location.href : '';
+  console.log(shareUrl)
 
   return (
     <section className="bg-white rounded-xl shadow-sm p-8 mb-8 border border-secondary/20">
