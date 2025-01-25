@@ -10,6 +10,7 @@ export default function GameFrame({ url }: GameFrameProps) {
       title="Play Sprunki lily"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowFullScreen
+      loading="lazy"
     />
   );
 }
