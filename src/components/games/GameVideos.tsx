@@ -1,3 +1,4 @@
+import { YouTubeEmbed } from '@next/third-parties/google'
 
 interface GameVideosProps {
   videos: {
@@ -14,13 +15,7 @@ export default function GameVideos({ videos, locale }: GameVideosProps) {
       <div className="relative w-full aspect-video  rounded-lg overflow-hidden mb-12">
         {videos.map((video) => (
           <div key={video.title} className="aspect-video">
-            <iframe 
-              className="w-full h-[600px] rounded-lg mb-4"
-              src={video.url}
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              loading="lazy"
-            />
+            <YouTubeEmbed videoid={video.url} style='w-full h-[315px] rounded-lg'></YouTubeEmbed>
           </div>
         ))}
       </div>

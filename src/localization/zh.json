@@ -25,12 +25,12 @@
         "videos": [
             {
                 "title": "Sprunki lily 游戏演示",
-                "url": "https://www.youtube.com/embed/2Hi6ZOsYmCc?si=3vm1ioHKokjLm71s",
+                "url": "2Hi6ZOsYmCc",
                 "type": "gameplay"
             },
             {
                 "title": "Sprunki lily 教程",
-                "url": "https://www.youtube.com/embed/fYMZU9xr5PQ?si=7UuBJlDR0plPJl85",
+                "url": "fYMZU9xr5PQ",
                 "type": "tutorial"
             }
         ]   
