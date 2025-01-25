@@ -1,12 +1,10 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import GoogleAnalytics from '@/components/analytics/GoogleAnalytics'
-const GA_MEASUREMENT_ID = 'G-J81W601FNV' // Replace with your actual GA4 measurement ID
+import Ads from '@/components/ads/ads'
 import { defaultLocale } from "@/lib/i18n";
 import Navigation from '@/components/navigation/Navigation'
 import Script from 'next/script';
 import { LinkedinIcon } from 'react-share';
-import AdBlockDetector from '@/components/adblock/AdBlockDetector'
 
 
 export const metadata: Metadata = {
@@ -37,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang={ defaultLocale}>
       <head>
-      <GoogleAnalytics measurementId={GA_MEASUREMENT_ID} />
+      <Ads/>
       <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
       <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
