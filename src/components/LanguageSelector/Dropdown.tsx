@@ -15,7 +15,7 @@ export default function LanguageDropdown() {
     <select
       onChange={(e) => handleLanguageChange(e.target.value)}
       value={currentLang}
-      className="bg-white border border-secondary/20 rounded-md px-3 py-1 text-sm"
+      className="bg-white border border-secondary/20 rounded-md px-3 py-1 text-sm md:text-base md:px-4 md:py-2"
     >
       {Object.keys(localeNames).map((lang:string) => (
         <option key={lang} value={lang}>
