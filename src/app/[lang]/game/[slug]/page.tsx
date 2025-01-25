@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: GamePageProps): Promise<Metad
   const game = await getGameData(params.lang, params.slug);
   const dict = await getDictionary(params.lang);
   return {
-    title: `${game.title} - ${dict.nav.games}`,
+    title: `${game.pageTitle} - ${dict.nav.games}`,
     description: game.description,
     keywords: game.keywords,
     alternates: {

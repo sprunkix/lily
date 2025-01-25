@@ -46,7 +46,6 @@ export default function RootLayout({
       </head>
       <body className="bg-background"> 
         <Navigation /> 
-        <AdBlockDetector />
         <main className="pt-16">
           {children}
         </main>

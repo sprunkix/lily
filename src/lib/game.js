@@ -69,6 +69,7 @@ export async function getGameData(lang, slug) {
     slug,
     contentHtml,
     title: mergedResult.data.title,
+    pageTitle: mergedResult.data.pageTitle,
     description: mergedResult.data.description,
     gameUrl: mergedResult.data.gameUrl,
     ogImage: mergedResult.data.ogImage,
