@@ -9,8 +9,8 @@ export default function VideoSection({
       <h2 className="text-3xl font-bold text-text-primary mb-4">{locale.title}</h2>
       <div className="grid md:grid-cols-2 gap-8">
         {locale.videos.map((video: any) => (
-          <div key={video.title} className="aspect-w-16 aspect-h-9">
-            <YouTubeEmbed videoid={video.url} style='w-full h-[315px] rounded-lg'></YouTubeEmbed>
+          <div key={video.title} className="aspect-w-16 aspect-h-9 w-full h-[315px] rounded-lg">
+            <YouTubeEmbed videoid={video.url} ></YouTubeEmbed>
           </div>
         ))}
       </div>

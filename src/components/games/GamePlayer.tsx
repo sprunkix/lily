@@ -1,4 +1,3 @@
-'use client';
 import GameFrame from '../game/GameFrame';
 import StartButton from '../game/StartButton';
 import ShareButtons from '../share/ShareButtons';
