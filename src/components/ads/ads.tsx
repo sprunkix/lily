@@ -13,14 +13,15 @@ export default function Ads() {
           (function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('groleegni.net',8751550,document.createElement('script'))
            `}}
     />
-      <script dangerouslySetInnerHTML={{
-        __html: `
-            (function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('gizokraijaw.net',8754996,document.createElement('script'))`
-        }}
-      />
+      
     </>
   )
   } else {
     return null
   }
 }
+//<script dangerouslySetInnerHTML={{
+//  __html: `
+//  (function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('gizokraijaw.net',8754996,document.createElement('script'))`
+//}}
+///>
