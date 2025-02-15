@@ -15,7 +15,7 @@ export default function NavLink({ href, children }: NavLinkProps) {
   return (
     <Link
       href={href}
-      className={`px-4 py-2 rounded-md transition-colors ${
+      className={`block px-4 py-2 rounded-md transition-colors ${
         isActive
           ? 'bg-primary text-white'
           : 'text-text-secondary hover:bg-accent/20'

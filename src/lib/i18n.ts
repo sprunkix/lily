@@ -24,7 +24,7 @@ export function getLocale(headers: any): string {
 }
 export function getLanguageFromPath(path: string) {
   const lang = path.split('/')[1];
-  return localeNames.includes(lang) ? (lang) : 'en';
+  return locales.includes(lang) ? (lang) : 'en';
 }
 
 const dictionaries: any = {
