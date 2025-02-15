@@ -5,6 +5,7 @@ import { defaultLocale } from "@/lib/i18n";
 import Navigation from '@/components/navigation/Navigation'
 import Script from 'next/script';
 import { LinkedinIcon } from 'react-share';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 export const metadata: Metadata = {
