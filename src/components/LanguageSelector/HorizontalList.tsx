@@ -13,21 +13,23 @@ export default function HorizontalLanguageList({
   const pathWithoutLang = pathname.replace(/^\/[a-z]{2}/, '');
 
   return (
-    <ul className="flex gap-4 justify-center">
+    <div className="max-w-full overflow-x-auto">
+      <ul className="flex flex-wrap justify-center gap-2 px-4">
       {Object.keys(localeNames).map((lang) => (
-        <li key={lang}>
+        <li key={lang} className="flex-none">
           <Link
             href={`/${lang}${pathWithoutLang}`}
-            className={`text-sm ${
+            className={`inline-block px-3 py-1 rounded-full text-sm ${
               currentLang === lang
-                ? 'text-primary font-semibold'
-                : 'text-text-secondary hover:text-primary'
-            }`}
+                ? 'bg-primary text-white'
+                : 'text-text-secondary hover:text-primary hover:bg-accent/20'
+            } transition-colors`}
           >
             {localeNames[lang].toUpperCase()}
           </Link>
         </li>
       ))}
     </ul>
+    </div>
   );
 }
