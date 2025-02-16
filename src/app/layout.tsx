@@ -47,6 +47,7 @@ export default function RootLayout({
         <Navigation /> 
         <main className="pt-16">
           {children}
+          <SpeedInsights/>
         </main>
       </body>
       <Script src='/script.js'></Script>
