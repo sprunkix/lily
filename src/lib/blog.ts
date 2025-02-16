@@ -40,7 +40,7 @@ export async function getBlogPost(slug: string): Promise<BlogPost> {
   const fullPath = path.join(BLOG_DIRECTORY, `${slug}.md`);
   const fileContents = await fs.readFile(fullPath, 'utf8');
   const { data, content } = matter(fileContents);
-  const htmlContent = marked(content);
+  const htmlContent = await marked(content);
 
   return {
     slug,
