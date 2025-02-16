@@ -20,6 +20,7 @@ export default function SiteLinks({ currenstLang, nav }:SiteLinksProps) {
           <div className="hidden md:flex items-center space-x-4">
             <NavLink href={`/${currenstLang}`}>{nav.home}</NavLink>
             <NavLink href={`/${currenstLang}/game`}>{nav.games}</NavLink>
+            <NavLink href={`/blog`}>Blog</NavLink>
             <NavLink href="/about-us">About Us</NavLink>
             {/* <NavLink href={`/${currenstLang}/characters`}>{dict.nav.characters}</NavLink> */}
             {/* <NavLink href={`/${currenstLang}/community`}>{dict.nav.community}</NavLink> */}
@@ -54,6 +55,7 @@ export default function SiteLinks({ currenstLang, nav }:SiteLinksProps) {
         <div className="px-2 pt-2 pb-3 space-y-1 bg-white shadow-lg">
           <NavLink href={`/${currenstLang}`}>{nav.home}</NavLink>
           <NavLink href={`/${currenstLang}/game`}>{nav.games}</NavLink>
+          <NavLink href={`/blog`}>Blog</NavLink>
           <NavLink href="/about-us">About Us</NavLink>
           <div className="pt-4 pb-2">
             <LanguageDropdown />
