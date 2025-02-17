@@ -7,19 +7,18 @@ export default function Ads() {
     <>
     <GoogleAnalytics gaId={GA_MEASUREMENT_ID} />
 	  <script defer data-domain="sprunkilily.com" src="https://app.pageview.app/js/script.js" />
-	  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0831789447587581" crossOrigin="anonymous" />
-    <script dangerouslySetInnerHTML={{
-      __html: `
-          (function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('groleegni.net',8751550,document.createElement('script'))
-           `}}
-    />
-      
+	  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-0831789447587581" crossOrigin="anonymous" />      
     </>
   )
   } else {
     return null
   }
 }
+//<script dangerouslySetInnerHTML={{
+//  __html: `
+//  (function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('groleegni.net',8751550,document.createElement('script'))
+//   `}}
+///>
 //<script dangerouslySetInnerHTML={{
 //  __html: `
 //  (function(d,z,s){s.src='https://'+d+'/401/'+z;try{(document.body||document.documentElement).appendChild(s)}catch(e){}})('gizokraijaw.net',8754996,document.createElement('script'))`
