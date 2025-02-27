@@ -2,17 +2,21 @@ import HorizontalLanguageList from './LanguageSelector/HorizontalList'
 import Link from 'next/link';
 export default function Footer({
   locale,
-  currentLang
+  currentLang,
+  showLang = true
 }: {
   locale: any;
   currentLang: string;
+  showLang?: boolean;
 }) {
   return (
     <footer className="py-8 border-t border-gray-200">
        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">    
          {/* Language selector */}
         <div className="mb-8 overflow-hidden">
-        <HorizontalLanguageList params={{ currentLang }} />
+          {showLang  !== false && (
+          <HorizontalLanguageList params={{ currentLang }} />
+        )}
         </div>
         {/* Footer content */}
         <div className="text-center space-y-4">

@@ -86,7 +86,7 @@ export default async function AboutUsPage() {
         </div>
       </article>
     </div>
-      <Footer locale={dict.footer} currentLang={langName} />
+      <Footer locale={dict.footer} currentLang={langName} showLang={false} />
     </div>
   )
 }
