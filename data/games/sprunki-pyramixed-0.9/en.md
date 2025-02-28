@@ -14,7 +14,7 @@ features:
     description: Characters feature early prototype visuals, giving players a glimpse into the developmental history of the franchise
     icon: 🧩
   - title: Vibrant Visual Enhancements
-    description:Certain sound combinations and character interactions are unique to this version, providing a fresh sense of novelty
+    description: Certain sound combinations and character interactions are unique to this version, providing a fresh sense of novelty
     icon: ⭐
   - title: Optimized Performance
     description: The game is optimized for smoother transitions and reduced lag, enhancing overall playability
